@@ -1,0 +1,129 @@
+{
+  "needs_review": true,
+  "navigation": {
+    "home": "Home",
+    "profile": "Profile",
+    "treatment": "Treatment",
+    "prices": "Prices",
+    "practical": "Practical",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© 2025 Mentis Balance",
+    "privacy": "Privacy Policy",
+    "terms": "Terms"
+  },
+  "languages": {
+    "da": "Danish",
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  },
+  "home": {
+    "title": "Authorized Psychologist Cand.psych. Tania Brandt",
+    "subtitle": "Professional and effective therapy focused on your resources and quality of life goals",
+    "introduction": "I offer a wide range of psychological treatments for adults with mental health conditions, behavioral problems, and general psychological issues, which you can read more about under Treatment.",
+    "highlight": "I ensure there is no waiting time, so you can receive treatment as quickly as possible.",
+    "cta_treatment": "Treatment",
+    "cta_booking": "BOOK AN APPOINTMENT",
+    "quote": "Life must be lived forwards, but can only be understood backwards - Søren Kierkegaard",
+    "quote_text": "We cannot always understand the meaning of what we experience while we are in the midst of it. Only later - when we look back - can we see the connections."
+  },
+  "profile": {
+    "title": "Profile",
+    "bio": "I am a trained psychologist and authorized by the Psychology Board. I have several years of experience and have pursued continuing education. Later in 2025, I expect to become a Specialist in Psychotherapy for adults (Danish Psychology Association). My name is Tania Brandt, I am in my 50s, married and have 2 children. I am committed to staying professionally sharp and am methodically well-founded. I regularly participate in courses and receive ongoing supervision in my work. I am covered by ethical guidelines for psychologists and naturally observe confidentiality. It is important to me to meet you and your needs right now, where you are in your life. In therapy, I draw on elements from therapeutic approaches that best meet your needs. Perhaps you need to better understand yourself - where does your vulnerability come from, how do you find peace, and how do you get closer to the life you desire. I also have significant experience with the public treatment system. Therefore, I will be able to advise you regarding your issue, whether you need help from me or whether there is a need for an interdisciplinary effort to help you in the best possible way. I look forward to meeting you - You are welcome!"
+  },
+  "treatment": {
+    "title": "Treatment",
+    "introduction": "I have several continuing education qualifications, including a 2-year education in Cognitive Behavioral Therapy (Treatment of stress, anxiety, depression, substance abuse, etc.), Dialectical Behavioral Therapy (Managing and regulating emotions) and Prolonged Exposure (Treatment of PTSD). In addition, I have several courses in Compassion Focused Therapy, Metacognitive Therapy, Solution Focused Therapy, etc. In recent years, I have been employed in adult psychiatry (district psychiatry and psychotherapeutic outpatient clinic in psychiatry). I have experience with diagnostic assessment. I am still affiliated with the Psychotherapeutic Outpatient Clinic in the Capital Region. The psychological sessions will be based on the latest coping strategies within Cognitive Behavioral Therapy. I adapt the treatment to fit your individual needs, goals and wishes. I therefore use several different forms of therapy, depending on what is most relevant and meaningful for you. I continuously evaluate the treatment to ensure that you benefit from it.",
+    "services_title": "I offer the following treatments:",
+    "services": [
+      "Stress",
+      "Work-related stress",
+      "Anxiety",
+      "Depression",
+      "Grief and crisis",
+      "Personality disorders",
+      "Existential life crises",
+      "Self-esteem issues",
+      "Stress reactions",
+      "PTSD",
+      "Performance anxiety regarding education",
+      "Relationship problems",
+      "Family consultations",
+      "ADHD assessment",
+      "Supervision of other psychologists on their way to authorization and other professional groups"
+    ]
+  },
+  "prices": {
+    "title": "Prices",
+    "subtitle": "Prices and conditions",
+    "note": "NOTE: I am not affiliated with health insurance and therefore you cannot use a referral from your own doctor. A session lasts 50 minutes.",
+    "individual_therapy": "Individual therapy",
+    "supervision": "Supervision of psychologists on their way to authorization",
+    "group_supervision": "Group supervision (2-6 people) call for more information about price",
+    "self_therapy": "Self-therapy for psychologists",
+    "ptsd_treatment": "PTSD treatment",
+    "family_sessions": "Family consultations",
+    "session_cards": "Session cards",
+    "session_cards_text": "Buy therapy session cards and achieve significant savings. I offer various options.",
+    "student_discount": "I offer discounts to students and unemployed - documentation must be shown:",
+    "adhd_assessment": "ADHD/ADD assessment",
+    "adhd_note": "I am not affiliated with health insurance. Therefore, you cannot use a referral from your own doctor, as you must pay for the assessment yourself. NOTE: You should be aware that I only treat adults, and I do not offer assessment if you have current substance abuse, if you have previously been dependent on substances, or if you have been diagnosed with Schizophrenia, Bipolar Affective Disorder, Functional Disorder, Eating Disorder, Personality Disorder, or Autism Spectrum Disorder.",
+    "assessment_process": "Assessment process",
+    "assessment_process_text": "Assessment process begins with an initial evaluation.",
+    "initial_consultation": "Initial consultation 70 min.",
+    "full_assessment": "If we agree that you should continue with a full ADHD assessment process including all sessions (2-3), examinations, report and feedback"
+  },
+  "practical": {
+    "title": "Practical Information",
+    "conditions": "Conditions",
+    "condition_1": "I am an authorized psychologist and member of the Danish Psychology Association.",
+    "condition_2": "Sessions can be conducted in Danish, English, Spanish or Portuguese.",
+    "condition_3": "I also offer telephone consultations, but recommend that the first session is in person. It is possible to choose a telephone session at the same rate.",
+    "confidentiality": "Confidentiality",
+    "confidentiality_text": "I am bound by confidentiality for psychologists, which I make a great effort to uphold. In extraordinary cases, I may be forced to break my confidentiality if I learn that you, as my client, are in danger to either yourself or others. In cases where I gain knowledge or have strong suspicion that a child is suffering or overburdened, I have, like everyone else, a duty to report. I will always talk to you about it if I consider breaking our confidential space before I talk to others.",
+    "cancellation": "Cancellation rules",
+    "cancellation_text": "Cancellations must be made 24 hours before the session starts - otherwise you must expect a fee of 500 DKK. Cancellations can also be made by phone call, voicemail message, SMS or email. An appointment with physical attendance can always be converted to a telephone session if you experience symptoms of illness and/or cannot attend in person. The same rate applies.",
+    "payment": "Payment",
+    "payment_title": "Subsidies and coverage",
+    "payment_text_1": "I do not have a provider number and no agreement with health insurance. Therefore, I unfortunately do not receive referrals from your own doctor. See a list of psychologists with provider numbers at psykologeridanmark.dk",
+    "payment_text_2": "Sygeforsikring Danmark provides subsidies for treatment of various mental disorders by authorized psychologists for members in groups 1, 2 and 5. Read the conditions here: https://www.sygeforsikring.dk/tilskud/psykologhjaelp.",
+    "payment_text_3": "If you have health insurance or health plan through your insurance company or work, you can contact them to hear if they will cover psychological help. Get help understanding the conditions here: https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/.",
+    "payment_text_4": "Grant approval / payment guarantee must be sent to me before the first session.",
+    "payment_method": "Payment",
+    "payment_method_text": "Payment is made with MobilePay or cash with receipt after each consultation."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Call 93935228 or fill out the form and I will call you back.",
+    "address": "Address:",
+    "address_line_1": "Mentis Balance",
+    "address_line_2": "Lygten 2C, 4th floor",
+    "address_line_3": "2400 Copenhagen NV",
+    "phone": "Phone",
+    "email": "Email",
+    "parking": "There is free parking very close to the premises, which is also about a 5-minute walk from Nørrebro station.",
+    "form": {
+      "name": "Full name",
+      "phone": "Phone number",
+      "email": "Email",
+      "message": "Write a message here (optional)",
+      "submit": "Send your message"
+    }
+  },
+  "meta": {
+    "home_title": "Mentis Balance - Authorized Psychologist Tania Brandt | Professional Therapy in Copenhagen",
+    "home_description": "Authorized psychologist Tania Brandt offers professional therapy in Copenhagen. Specialized in stress, anxiety, depression and other mental health conditions. No waiting time.",
+    "profile_title": "Profile - Tania Brandt | Mentis Balance",
+    "profile_description": "Learn about psychologist Tania Brandt, her education and experience in psychotherapy and cognitive behavioral therapy.",
+    "treatment_title": "Treatment | Mentis Balance",
+    "treatment_description": "Comprehensive psychological treatment for stress, anxiety, depression, PTSD and other mental health conditions.",
+    "prices_title": "Prices | Mentis Balance",
+    "prices_description": "See prices for psychological treatment, supervision and ADHD assessment.",
+    "practical_title": "Practical Information | Mentis Balance",
+    "practical_description": "Terms, confidentiality, cancellation rules and practical information about psychological treatment.",
+    "contact_title": "Contact | Mentis Balance",
+    "contact_description": "Contact psychologist Tania Brandt to book an appointment or get more information about treatment."
+  }
+}

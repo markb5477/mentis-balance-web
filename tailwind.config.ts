@@ -18,12 +18,24 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'body': ['Inter', 'sans-serif'],
+				'heading': ['Montserrat', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'brand-blue': {
+					DEFAULT: 'hsl(var(--brand-blue))',
+					foreground: 'hsl(var(--brand-blue-foreground))'
+				},
+				'warm-neutral': {
+					DEFAULT: 'hsl(var(--warm-neutral))',
+					foreground: 'hsl(var(--warm-neutral-foreground))'
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'

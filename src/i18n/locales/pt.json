@@ -1,0 +1,129 @@
+{
+  "needs_review": true,
+  "navigation": {
+    "home": "Início",
+    "profile": "Perfil",
+    "treatment": "Tratamento",
+    "prices": "Preços",
+    "practical": "Prático",
+    "contact": "Contato"
+  },
+  "footer": {
+    "copyright": "© 2025 Mentis Balance",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos"
+  },
+  "languages": {
+    "da": "Dinamarquês",
+    "en": "Inglês",
+    "es": "Espanhol",
+    "pt": "Português"
+  },
+  "home": {
+    "title": "Psicóloga Autorizada Cand.psych. Tania Brandt",
+    "subtitle": "Terapia profissional e eficaz focada em seus recursos e objetivos de qualidade de vida",
+    "introduction": "Ofereço uma ampla gama de tratamentos psicológicos para adultos com transtornos mentais, problemas comportamentais e questões psicológicas gerais, sobre os quais você pode ler mais em Tratamento.",
+    "highlight": "Eu garanto que não há tempo de espera, para que você possa receber tratamento o mais rápido possível.",
+    "cta_treatment": "Tratamento",
+    "cta_booking": "AGENDAR UMA CONSULTA",
+    "quote": "A vida deve ser vivida para frente, mas só pode ser compreendida para trás - Søren Kierkegaard",
+    "quote_text": "Nem sempre podemos entender o significado do que experimentamos enquanto estamos no meio disso. Só depois - quando olhamos para trás - podemos ver as conexões."
+  },
+  "profile": {
+    "title": "Perfil",
+    "bio": "Sou psicóloga formada e autorizada pelo Conselho de Psicologia. Tenho vários anos de experiência e continuei minha educação. Mais tarde em 2025, espero me tornar Especialista em Psicoterapia para adultos (Associação Dinamarquesa de Psicologia). Meu nome é Tania Brandt, tenho 50 anos, sou casada e tenho 2 filhos. Estou comprometida a me manter profissionalmente afiada e sou metodologicamente bem fundamentada. Participo regularmente de cursos e recebo supervisão contínua em meu trabalho. Estou coberta pelas diretrizes éticas para psicólogos e naturalmente observo a confidencialidade. É importante para mim conhecê-lo e suas necessidades agora, onde você está em sua vida. Na terapia, recorro a elementos de abordagens terapêuticas que melhor atendem às suas necessidades. Talvez você precise se entender melhor - de onde vem sua vulnerabilidade, como você encontra paz, e como se aproxima da vida que deseja. Também tenho experiência significativa com o sistema de tratamento público. Portanto, poderei aconselhá-lo sobre seu problema, seja você precisando de ajuda de mim ou se há necessidade de um esforço interdisciplinar para ajudá-lo da melhor maneira possível. Espero conhecê-lo - Você é bem-vindo!"
+  },
+  "treatment": {
+    "title": "Tratamento",
+    "introduction": "Tenho várias qualificações de educação continuada, incluindo uma educação de 2 anos em Terapia Cognitivo Comportamental (Tratamento de estresse, ansiedade, depressão, abuso de substâncias, etc.), Terapia Comportamental Dialética (Gerenciamento e regulação de emoções) e Exposição Prolongada (Tratamento de TEPT). Além disso, tenho vários cursos em Terapia Focada na Compaixão, Terapia Metacognitiva, Terapia Focada em Soluções, etc. Nos últimos anos, estive empregada em psiquiatria de adultos (psiquiatria de distrito e clínica ambulatorial psicoterapêutica em psiquiatria). Tenho experiência com avaliação diagnóstica. Ainda estou afiliada à Clínica Ambulatorial Psicoterapêutica na Região da Capital. As sessões psicológicas serão baseadas nas mais recentes estratégias de enfrentamento dentro da Terapia Cognitivo Comportamental. Adapto o tratamento para se adequar às suas necessidades, objetivos e desejos individuais. Portanto, uso várias formas diferentes de terapia, dependendo do que é mais relevante e significativo para você. Avalio continuamente o tratamento para garantir que você se beneficie dele.",
+    "services_title": "Ofereço os seguintes tratamentos:",
+    "services": [
+      "Estresse",
+      "Estresse relacionado ao trabalho",
+      "Ansiedade",
+      "Depressão",
+      "Luto e crise",
+      "Transtornos de personalidade",
+      "Crises existenciais de vida",
+      "Problemas de autoestima",
+      "Reações de estresse",
+      "TEPT",
+      "Ansiedade de desempenho relacionada à educação",
+      "Problemas de relacionamento",
+      "Consultas familiares",
+      "Avaliação de TDAH",
+      "Supervisão de outros psicólogos a caminho da autorização e outros grupos profissionais"
+    ]
+  },
+  "prices": {
+    "title": "Preços",
+    "subtitle": "Preços e condições",
+    "note": "NOTA: Não estou afiliada ao seguro de saúde e, portanto, você não pode usar um encaminhamento do seu próprio médico. Uma sessão dura 50 minutos.",
+    "individual_therapy": "Terapia individual",
+    "supervision": "Supervisão de psicólogos a caminho da autorização",
+    "group_supervision": "Supervisão em grupo (2-6 pessoas) ligue para mais informações sobre o preço",
+    "self_therapy": "Autoterapia para psicólogos",
+    "ptsd_treatment": "Tratamento de TEPT",
+    "family_sessions": "Consultas familiares",
+    "session_cards": "Cartões de sessão",
+    "session_cards_text": "Compre cartões de sessão de terapia e obtenha economias significativas. Ofereço várias opções.",
+    "student_discount": "Ofereço descontos para estudantes e desempregados - documentação deve ser mostrada:",
+    "adhd_assessment": "Avaliação de TDAH/DDA",
+    "adhd_note": "Não estou afiliada ao seguro de saúde. Portanto, você não pode usar um encaminhamento do seu próprio médico, pois deve pagar pela avaliação você mesmo. NOTA: Você deve estar ciente de que trato apenas adultos, e não ofereço avaliação se você tem abuso atual de substâncias, se foi previamente dependente de substâncias, ou se foi diagnosticado com Esquizofrenia, Transtorno Afetivo Bipolar, Transtorno Funcional, Transtorno Alimentar, Transtorno de Personalidade, ou Transtorno do Espectro Autista.",
+    "assessment_process": "Processo de avaliação",
+    "assessment_process_text": "O processo de avaliação começa com uma avaliação inicial.",
+    "initial_consultation": "Consulta inicial 70 min.",
+    "full_assessment": "Se concordarmos que você deve continuar com um processo completo de avaliação de TDAH incluindo todas as sessões (2-3), exames, relatório e feedback"
+  },
+  "practical": {
+    "title": "Informações Práticas",
+    "conditions": "Condições",
+    "condition_1": "Sou psicóloga autorizada e membro da Associação Dinamarquesa de Psicologia.",
+    "condition_2": "As sessões podem ser conduzidas em dinamarquês, inglês, espanhol ou português.",
+    "condition_3": "Também ofereço consultas por telefone, mas recomendo que a primeira sessão seja presencial. É possível escolher uma sessão por telefone pela mesma taxa.",
+    "confidentiality": "Confidencialidade",
+    "confidentiality_text": "Estou obrigada pela confidencialidade para psicólogos, que me esforço muito para manter. Em casos extraordinários, posso ser forçada a quebrar minha confidencialidade se souber que você, como meu cliente, está em perigo para si mesmo ou para outros. Em casos onde obtenho conhecimento ou tenho forte suspeita de que uma criança está sofrendo ou sobrecarregada, tenho, como todos os outros, o dever de relatar. Sempre falarei com você sobre isso se considerar quebrar nosso espaço confidencial antes de falar com outros.",
+    "cancellation": "Regras de cancelamento",
+    "cancellation_text": "Cancelamentos devem ser feitos 24 horas antes do início da sessão - caso contrário, você deve esperar uma taxa de 500 DKK. Cancelamentos também podem ser feitos por chamada telefônica, mensagem de correio de voz, SMS ou email. Um compromisso com presença física sempre pode ser convertido em uma sessão por telefone se você experimentar sintomas de doença e/ou não puder comparecer pessoalmente. A mesma taxa se aplica.",
+    "payment": "Pagamento",
+    "payment_title": "Subsídios e cobertura",
+    "payment_text_1": "Não tenho número de provedor e nenhum acordo com o seguro de saúde. Portanto, infelizmente não recebo encaminhamentos do seu próprio médico. Veja uma lista de psicólogos com números de provedor em psykologeridanmark.dk",
+    "payment_text_2": "Sygeforsikring Danmark fornece subsídios para tratamento de vários transtornos mentais por psicólogos autorizados para membros nos grupos 1, 2 e 5. Leia as condições aqui: https://www.sygeforsikring.dk/tilskud/psykologhjaelp.",
+    "payment_text_3": "Se você tem seguro de saúde ou plano de saúde através da sua companhia de seguros ou trabalho, pode contactá-los para saber se eles cobrirão ajuda psicológica. Obtenha ajuda para entender as condições aqui: https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/.",
+    "payment_text_4": "Aprovação de concessão / garantia de pagamento deve ser enviada para mim antes da primeira sessão.",
+    "payment_method": "Pagamento",
+    "payment_method_text": "O pagamento é feito com MobilePay ou dinheiro com recibo após cada consulta."
+  },
+  "contact": {
+    "title": "Contato",
+    "intro": "Ligue para 93935228 ou preencha o formulário e eu te ligarei de volta.",
+    "address": "Endereço:",
+    "address_line_1": "Mentis Balance",
+    "address_line_2": "Lygten 2C, 4º andar",
+    "address_line_3": "2400 Copenhague NV",
+    "phone": "Telefone",
+    "email": "Email",
+    "parking": "Há estacionamento gratuito muito perto das instalações, que também fica a cerca de 5 minutos a pé da estação Nørrebro.",
+    "form": {
+      "name": "Nome completo",
+      "phone": "Número de telefone",
+      "email": "Email",
+      "message": "Escreva uma mensagem aqui (opcional)",
+      "submit": "Enviar sua mensagem"
+    }
+  },
+  "meta": {
+    "home_title": "Mentis Balance - Psicóloga Autorizada Tania Brandt | Terapia Profissional em Copenhague",
+    "home_description": "A psicóloga autorizada Tania Brandt oferece terapia profissional em Copenhague. Especializada em estresse, ansiedade, depressão e outras condições de saúde mental. Sem tempo de espera.",
+    "profile_title": "Perfil - Tania Brandt | Mentis Balance",
+    "profile_description": "Conheça a psicóloga Tania Brandt, sua educação e experiência em psicoterapia e terapia cognitivo comportamental.",
+    "treatment_title": "Tratamento | Mentis Balance",
+    "treatment_description": "Tratamento psicológico abrangente para estresse, ansiedade, depressão, TEPT e outras condições de saúde mental.",
+    "prices_title": "Preços | Mentis Balance",
+    "prices_description": "Veja os preços para tratamento psicológico, supervisão e avaliação de TDAH.",
+    "practical_title": "Informações Práticas | Mentis Balance",
+    "practical_description": "Termos, confidencialidade, regras de cancelamento e informações práticas sobre tratamento psicológico.",
+    "contact_title": "Contato | Mentis Balance",
+    "contact_description": "Entre em contato com a psicóloga Tania Brandt para agendar uma consulta ou obter mais informações sobre o tratamento."
+  }
+}

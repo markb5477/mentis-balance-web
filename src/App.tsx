@@ -3,7 +3,15 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./i18n";
 import Index from "./pages/Index";
+import Profile from "./pages/Profile";
+import Treatment from "./pages/Treatment";
+import Prices from "./pages/Prices";
+import Practical from "./pages/Practical";
+import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -16,7 +24,29 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/profil" element={<Profile />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/perfil" element={<Profile />} />
+          <Route path="/behandling" element={<Treatment />} />
+          <Route path="/treatment" element={<Treatment />} />
+          <Route path="/tratamiento" element={<Treatment />} />
+          <Route path="/tratamento" element={<Treatment />} />
+          <Route path="/priser" element={<Prices />} />
+          <Route path="/prices" element={<Prices />} />
+          <Route path="/precios" element={<Prices />} />
+          <Route path="/precos" element={<Prices />} />
+          <Route path="/praktisk" element={<Practical />} />
+          <Route path="/practical" element={<Practical />} />
+          <Route path="/practico" element={<Practical />} />
+          <Route path="/pratico" element={<Practical />} />
+          <Route path="/kontakt" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/contacto" element={<Contact />} />
+          <Route path="/contato" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/privatlivspolitik" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/vilkar" element={<Terms />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
