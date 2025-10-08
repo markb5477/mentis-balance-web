@@ -76,7 +76,7 @@ const Terms = () => {
                   
                   <p className="mt-4">
                     For spørgsmål til vilkår, kontakt Tania Brandt på 
-                    <a href="tel:+4593935228" className="text-accent hover:underline ml-1">93 93 52 28</a> eller 
+                    <a href="tel:+4521636222" className="text-accent hover:underline ml-1">21 63 62 22</a> eller 
                     <a href="mailto:info@mentisbalance.dk" className="text-accent hover:underline ml-1">info@mentisbalance.dk</a>
                   </p>
                 </CardContent>

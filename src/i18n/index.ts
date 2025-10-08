@@ -17,9 +17,6 @@ const getBrowserLanguage = (): string => {
   if (typeof window !== 'undefined') {
     const savedLang = localStorage.getItem('language');
     if (savedLang) return savedLang;
-    
-    const browserLang = navigator.language.slice(0, 2);
-    return ['da', 'en', 'es', 'pt'].includes(browserLang) ? browserLang : 'da';
   }
   return 'da';
 };

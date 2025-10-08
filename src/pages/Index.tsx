@@ -10,6 +10,7 @@ const Index = () => {
   const getLocalizedPath = (key: string) => {
     const paths = {
       treatment: { da: '/behandling', en: '/treatment', es: '/tratamiento', pt: '/tratamento' },
+      contact: { da: '/kontakt', en: '/contact', es: '/contacto', pt: '/contato' },
     };
     return paths[key as keyof typeof paths][i18n.language as keyof typeof paths.treatment] || paths[key as keyof typeof paths].da;
   };
@@ -42,10 +43,10 @@ const Index = () => {
                   {t('home.cta_treatment')}
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
-                <a href="tel:+4593935228">
+              <Button asChild variant="outline" size="lg" className="bg-white text-primary border-white hover:bg-white/90 hover:text-primary">
+                <Link to={getLocalizedPath('contact')}>
                   {t('home.cta_booking')}
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

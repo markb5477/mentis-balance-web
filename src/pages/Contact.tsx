@@ -72,8 +72,8 @@ ${formData.message}`;
                       <Phone className="h-5 w-5 text-accent" />
                       <div>
                         <p className="font-medium">{t('contact.phone')}</p>
-                        <a href="tel:+4593935228" className="text-accent hover:underline">
-                          93 93 52 28
+                        <a href="tel:+4521636222" className="text-accent hover:underline">
+                          21 63 62 22
                         </a>
                       </div>
                     </div>
