@@ -30,7 +30,7 @@ Email: ${formData.email}
 Besked:
 ${formData.message}`;
     
-    const mailtoLink = `mailto:info@mentisbalance.dk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:taniabrandt@hotmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
     
     toast({
@@ -82,8 +82,8 @@ ${formData.message}`;
                       <Mail className="h-5 w-5 text-accent" />
                       <div>
                         <p className="font-medium">{t('contact.email')}</p>
-                        <a href="mailto:info@mentisbalance.dk" className="text-accent hover:underline">
-                          info@mentisbalance.dk
+                        <a href="mailto:taniabrandt@hotmail.com" className="text-accent hover:underline">
+                          taniabrandt@hotmail.com
                         </a>
                       </div>
                     </div>

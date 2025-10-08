@@ -74,8 +74,8 @@ const Privacy = () => {
                   
                   <p className="mt-6">
                     For spørgsmål om behandling af personoplysninger, kontakt Tania Brandt på 
-                    <a href="mailto:info@mentisbalance.dk" className="text-accent hover:underline ml-1">
-                      info@mentisbalance.dk
+                    <a href="mailto:taniabrandt@hotmail.com" className="text-accent hover:underline ml-1">
+                      taniabrandt@hotmail.com
                     </a>
                   </p>
                 </CardContent>
