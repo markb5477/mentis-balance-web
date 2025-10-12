@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Layout from '@/components/Layout';
+import TranslatedText from '@/components/TranslatedText';
 
 const Terms = () => {
   const { t } = useTranslation();
@@ -45,8 +46,8 @@ const Terms = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>{t('practical.payment_text_1')}</p>
-                  <p>{t('practical.payment_text_2')}</p>
-                  <p>{t('practical.payment_text_3')}</p>
+                  <p><TranslatedText text={t('practical.payment_text_2')} /></p>
+                  <p><TranslatedText text={t('practical.payment_text_3')} /></p>
                 </CardContent>
               </Card>
 

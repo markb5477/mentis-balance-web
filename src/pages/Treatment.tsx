@@ -16,9 +16,11 @@ const Treatment = () => {
             
             {/* Introduction */}
             <div className="mb-16 fade-in">
-              <p className="text-lg leading-relaxed text-muted-foreground">
-                {t('treatment.introduction')}
-              </p>
+              {(t('treatment.introduction') as string).split('\n\n').map((paragraph, index) => (
+                <p key={index} className="text-lg leading-relaxed text-muted-foreground mb-4">
+                  {paragraph}
+                </p>
+              ))}
             </div>
 
             {/* Services */}

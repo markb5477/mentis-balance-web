@@ -30,11 +30,11 @@
   },
   "profile": {
     "title": "Profil",
-    "bio": "Jeg er uddannet psykolog og er autoriseret af Psykolognævnet. Jeg har flere års erfaring ligesom jeg har videreuddannet mig. Senere på året 2025 forventer jeg at blive Specialist i Psykoterapi for voksne (Dansk Psykolog Forening). Jeg hedder Tania Brandt, er i 50erne, er gift og har 2 børn. Jeg er optaget af at holde mig fagligt skarp og er metodisk velfunderet. Jeg deltager løbende i kurser og modtager løbende supervision på mit arbejde. Jeg er omfattet af etiske retningslinjer for psykologer og overholder naturligvis tavshedspligten. Det er vigtigt for mig at møde dig og dine behov lige nu, hvor du befinder dig i dit liv. I terapien trækker jeg på elementer fra terapiretninger, der dækker dine behov bedst muligt. Måske har du et behov for bedre at forstå dig selv - hvor stammer din sårbarhed fra, hvordan finder du ro og hvordan kommer tættere på det liv, som du ønsker. Jeg har tillige betydelig erfaring med det offentlige behandlingssystem. Derfor vil jeg være i stand til at rådgive dig i forhold til din problemstilling, uanset om du skal have hjælp fra mig eller hvorvidt der er behov for en tværfaglig indsats for at hjælpe dig bedst muligt. Jeg glæder mig til at møde dig - Du er velkommen!"
+    "bio": "Jeg hedder Tania Brandt, er i 50erne, er gift og har to børn.\n\nJeg er uddannet psykolog og er autoriseret af Psykolognævnet og har mere end 20 års erfaring ligesom jeg har videreuddannet mig. Senere på året 2025 forventer jeg at blive Specialist i Psykoterapi for voksne (Dansk Psykolog Forening).\n\nJeg deltager løbende i kurser og modtager løbende supervision på mit arbejde.\n\nSom psykolog er jeg omfattet af etiske retningslinjer og overholder naturligvis tavshedspligten, som er fundamentale i psykologien for at beskytte dine rettigheder, fremme tillid og sikre velbefindende.\n\nDet er vigtigt for mig at møde dig og dine behov lige nu, hvor du befinder dig i dit liv. I terapien trækker jeg på elementer fra terapiretninger, der dækker dine behov bedst muligt.\n\nMåske har du et behov for bedre at forstå dig selv: hvor stammer din sårbarhed fra, hvordan finder du ro og hvordan kommer tættere på det liv, som du ønsker.\n\nJeg har tillige betydelig erfaring med det offentlige behandlingssystem, derfor vil jeg være i stand til at rådgive dig i forhold til din problemstilling — uanset om du skal have hjælp fra mig eller hvorvidt der er behov for en tværfaglig indsats for at hjælpe dig bedst muligt.\n\nJeg glæder mig til at møde dig. Du er velkommen!"
   },
   "treatment": {
     "title": "Behandling",
-    "introduction": "Jeg har flere efteruddannelser, bl.a. en 2-årig uddannelse inden for Kognitiv Adfærdsterapi (Behandling af bl.a. stress, angst depression, stofmisbrug m.m.), Dialektisk Adfærdsterapi (Håndtering og regulering af følelser) samt Prolonged Exposure (Behandling af PTSD). Dertil har jeg flere kurser inden for Compassion fokuseret Terapi, Metakognitiv Terapi, Løsningsfokuseret terapi m.m. De seneste år har jeg været ansat i voksenpsykiatrien (distriktspsykiatrien og psykoterapeutisk ambulatorium i psykiatrien). Jeg har erfaring med diagnostisk og udredning. Jeg er fortsat tilknyttet Psykoterapeutisk Ambulatorium i Region Hovedstaden. Psykologsamtalerne vil tage udgangspunkt i de nyeste mestringsstrategier inden for Kognitiv Adfærdsterapi. Jeg tilpasser behandlingen, så den passer til dine individuelle behov, mål og ønsker. Jeg bruger derfor flere forskellige terapiformer, alt efter hvad der er mest relevant og giver mening for dig. Jeg evaluerer løbende behandlingen for at sikre, at du profiterer af behandlingen.",
+    "introduction": "Jeg har en 2-årig uddannelse inden for Kognitiv Adfærdsterapi (Behandling af stress, angst, depression, stofmisbrug m.m.)\n\nDerudover er jeg uddannet i Dialektisk Adfærdsterapi (håndtering og regulering af følelser) og i Prolonged Exposure (traumebehandling).\n\nJeg har også gennemført flere komplementære kurser inden for Compassion fokuseret Terapi, Metakognitiv Terapi, Løsningsfokuseret terapi, blandt andre modaliteter.\n\nDe seneste år har jeg arbejdet inden for voksenpsykiatrien, hvor jeg har opnået erfaring med diagnostisk vurdering. I øjeblikket fortsætter jeg med at arbejde på en psykiatrisk ambulatorium.\n\nDe psykologsamtaler, jeg tilbyder, er baseret på de mest aktuelle strategier inden for Kognitiv Adfærdsterapi. Behandlingen er personaliseret og tilpasset til dine individuelle behov, mål og ønsker.\n\nJeg bruger forskellige terapeutiske tilgange afhængigt af, hvad der er mest relevant og meningsfuldt for dig, og vi evaluerer løbende processen for at sikre, at du virkelig drager fordel af terapi.",
     "services_title": "Jeg tilbyder følgende behandlinger:",
     "services": [
       "Stress",
@@ -47,7 +47,7 @@
       "Selvværdsproblematikker",
       "Belastningsreaktioner",
       "PTSD",
-      "Præstationsangst ift. uddannelse",
+      "Præstationsangst",
       "Parforholdsproblemer",
       "Pårørendesamtaler",
       "Udredning af ADHD",
@@ -55,7 +55,6 @@
     ]
   },
   "prices": {
-    "title": "Priser",
     "subtitle": "Priser og vilkår",
     "note": "OBS. Jeg er ikke tilknyttet sygesikringen og du kan derfor ikke bruge en henvisning fra din egen læge. En session varer 50 minutter.",
     "individual_therapy": "Individuel terapi",
@@ -81,25 +80,31 @@
     "condition_2": "Samtalerne kan foregå på dansk, engelsk, spansk eller portugisisk.",
     "condition_3": "Jeg tilbyder også telefonkonsultationer, men anbefaler at første samtale er med fysisk fremmøde. Det er muligt at vælge samtale over telefon til samme takst.",
     "confidentiality": "Tavshedspligt",
-    "confidentiality_text": "Jeg er omfattet af tavshedspligten for psykologer, som jeg gør meget ud af at håndhæve. Jeg kan i ekstraordinære tilfælde være nødsaget til at bryde min tavshedspligt, hvis jeg erfarer, at du, som min klient, er til fare for enten dig selv eller andre. I tilfælde hvor jeg få viden om eller får kraftig mistanke om, at et barn lider eller er overbelastet, så har jeg, ligesom alle andre, underretningspligt. Jeg vil altid tale med dig om det, hvis jeg påtænker at bryde vores fortrolige rum, før jeg taler med andre.",
+    "confidentiality_text": "Jeg er omfattet af tavshedspligten for psykologer, som jeg gør meget ud af at håndhæve. Jeg kan i ekstraordinære tilfælde være nødsaget til at bryde min tavshedspligt, hvis jeg erfarer, at du er til fare for enten dig selv eller andre. I tilfælde hvor jeg få viden om eller får kraftig mistanke om, at et barn lider eller er overbelastet, så har jeg, ligesom alle andre, underretningspligt. Jeg vil altid tale med dig om det, hvis jeg påtænker at bryde vores fortrolige rum, før jeg taler med andre.",
     "cancellation": "Afbudsregler",
-    "cancellation_text": "Afbud meldes 24 timer inden samtalens start – ellers skal du påregne et gebyr på 500 kr. Afbud kan også ske ved telefonisk opringning, på en telefonsvarerbesked, på SMS eller via e-mail. En aftale med fysisk fremmøde kan altid konverteres til en telefonsamtale, hvis du eksempelvis oplever symptomer på sygdom og/eller ikke kan tage fysisk fremmøde. Der betales samme takst.",
+    "cancellation_text": "Afbud meldes 24 timer inden samtalens start – ellers skal du påregne et gebyr på {{cancellationFee}}. Afbud kan også ske ved telefonisk opringning, på en telefonsvarerbesked, på SMS eller via e-mail. En aftale med fysisk fremmøde kan altid konverteres til en telefonsamtale, hvis du eksempelvis oplever symptomer på sygdom og/eller ikke kan tage fysisk fremmøde. Der betales samme takst.",
     "payment": "Afregning",
     "payment_title": "Tilskud og dækning",
     "payment_text_1": "Jeg har ikke ydrenummer og ikke overenskomst med sygesikringen. Derfor modtager jeg desværre ikke henvisninger fra egen læge. Se en liste over psykologer med ydernummer på psykologeridanmark.dk",
-    "payment_text_2": "Sygeforsikring Danmark giver tilskud til behandling af en række forskellige psykiske lidelser hos autoriseret psykolog for medlemmer i gruppe 1, 2 og 5. Læs betingelserne her: https://www.sygeforsikring.dk/tilskud/psykologhjaelp.",
-    "payment_text_3": "Har du en sundhedsforsikring eller sundhedsordning gennem dit forsikringsselskab eller arbejde, kan du kontakte dem for at høre, om de vil dække psykologhjælp. Få hjælp til at få styr på betingelserne her: https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/.",
-    "payment_text_4": "Bevillingstilsagn / betalingsgaranti sendes til mig inden første samtale.",
+    "payment_text_2": "Sygeforsikring Danmark giver tilskud til behandling af en række forskellige psykiske lidelser hos autoriseret psykolog for medlemmer i gruppe 1, 2 og 5. Læs betingelserne <a href=\"https://www.sygeforsikring.dk/tilskud/psykologhjaelp\" target=\"_blank\" rel=\"noopener noreferrer\">her</a>",
+    "payment_text_3": "Har du en sundhedsforsikring eller sundhedsordning gennem dit forsikringsselskab eller arbejde, kan du kontakte dem for at høre, om de vil dække psykologhjælp. Få hjælp til at få styr på betingelserne <a href=\"https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/\" target=\"_blank\" rel=\"noopener noreferrer\">her</a>",
     "payment_method": "Betaling",
-    "payment_method_text": "Der betales med MobilePay eller kontant mod kvittering efter hver konsultation."
+    "payment_method_text": "Der betales med MobilePay eller kontant mod kvittering efter hver konsultation.",
+    "payment_private_title": "Private personer:",
+    "payment_private_text": "Betaling skal ske ved forudbetaling - kontant / via mobilpay før hver samtale. Jeg modtager ikke dankort.",
+    "payment_private_note": "Bemærk: Du kan ikke bruge en henvisning fra din læge hos mig, da jeg ikke har overenskomst med sygesikringen.",
+    "payment_private_mobilepay": "Mobilpay: xx",
+    "payment_company_title": "Virksomheder:",
+    "payment_company_bank": "Bankoverførsel: xx"
   },
   "contact": {
     "title": "Kontakt",
     "intro": "Ring 21636222 eller udfyld formularen, så giver jeg et kald.",
     "address": "Adresse:",
     "address_line_1": "Mentis Balance",
-    "address_line_2": "Lygten 2C, 4. sal",
-    "address_line_3": "2400 København NV",
+    "address_line_2": "Psykologerne ved Nørrebro station",
+    "address_line_3": "Lygten 2C, 4. sal",
+    "address_line_4": "2400 København NV",
     "phone": "Tlf.",
     "email": "Email",
     "parking": "Der er gratis parkering meget tæt på lokalet, som desuden ligger ca. 5 minutters gang fra Nørrebro stationen.",

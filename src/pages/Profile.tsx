@@ -30,9 +30,11 @@ const Profile = () => {
               {/* Biography */}
               <div className="lg:col-span-2 fade-in">
                 <div className="prose prose-lg max-w-none">
-                  <p className="text-lg leading-relaxed text-muted-foreground">
-                    {t('profile.bio')}
-                  </p>
+                  {(t('profile.bio') as string).split('\n\n').map((paragraph, index) => (
+                    <p key={index} className="text-lg leading-relaxed text-muted-foreground mb-4">
+                      {paragraph}
+                    </p>
+                  ))}
                 </div>
               </div>
             </div>

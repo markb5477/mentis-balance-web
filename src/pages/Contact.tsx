@@ -96,6 +96,7 @@ ${formData.message}`;
                           <p>{t('contact.address_line_1')}</p>
                           <p>{t('contact.address_line_2')}</p>
                           <p>{t('contact.address_line_3')}</p>
+                          <p>{t('contact.address_line_4')}</p>
                         </div>
                       </div>
                     </div>

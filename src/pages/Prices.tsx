@@ -3,27 +3,28 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { AlertCircle } from 'lucide-react';
 import Layout from '@/components/Layout';
+import { PRICING, formatPrice, formatPriceWithText } from '@/config/pricing';
 
 const Prices = () => {
   const { t } = useTranslation();
 
   const priceItems = [
-    { service: t('prices.individual_therapy'), price50: '1200 kr.', price90: '1700 kr.' },
-    { service: t('prices.supervision'), price50: '1200 kr.', price90: '' },
-    { service: t('prices.self_therapy'), price50: '1200 kr.', price90: '' },
-    { service: t('prices.ptsd_treatment'), price50: '', price90: '1800 kr.' },
-    { service: t('prices.family_sessions'), price50: '1200 kr.', price90: '1800 kr. (2 prs)' },
+    { service: t('prices.individual_therapy'), price50: formatPrice(PRICING.INDIVIDUAL_THERAPY_50MIN), price90: formatPrice(PRICING.INDIVIDUAL_THERAPY_90MIN) },
+    { service: t('prices.supervision'), price50: formatPrice(PRICING.SUPERVISION_50MIN), price90: PRICING.SUPERVISION_90MIN },
+    { service: t('prices.self_therapy'), price50: formatPrice(PRICING.SELF_THERAPY_50MIN), price90: PRICING.SELF_THERAPY_90MIN },
+    { service: t('prices.ptsd_treatment'), price50: PRICING.PTSD_TREATMENT_50MIN, price90: formatPrice(PRICING.PTSD_TREATMENT_90MIN) },
+    { service: t('prices.family_sessions'), price50: formatPrice(PRICING.FAMILY_SESSIONS_50MIN), price90: formatPriceWithText(PRICING.FAMILY_SESSIONS_90MIN, '2 prs') },
   ];
 
   const sessionCards = [
-    { sessions: '3x terapi', price: '4.000 kr.' },
-    { sessions: '5x terapi', price: '5.000 kr.' },
+    { sessions: '3x terapi', price: formatPrice(PRICING.SESSION_CARD_3X) },
+    { sessions: '5x terapi', price: formatPrice(PRICING.SESSION_CARD_5X) },
   ];
 
   const studentPrices = [
-    { sessions: 'Pris pr. session', price: '950 kr.' },
-    { sessions: '3x terapi', price: '2.500 kr.' },
-    { sessions: '5x terapi', price: '3.750 kr.' },
+    { sessions: 'Pris pr. session', price: formatPrice(PRICING.STUDENT_SESSION_PRICE) },
+    { sessions: '3x terapi', price: formatPrice(PRICING.STUDENT_3X_CARD) },
+    { sessions: '5x terapi', price: formatPrice(PRICING.STUDENT_5X_CARD) },
   ];
 
   return (
@@ -31,13 +32,9 @@ const Prices = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="font-heading text-4xl md:text-5xl font-bold text-center mb-8 fade-in">
-              {t('prices.title')}
-            </h1>
-            
-            <h2 className="font-heading text-2xl font-semibold text-center mb-12 fade-in">
+            <h1 className="font-heading text-4xl md:text-5xl font-bold text-center mb-12 fade-in">
               {t('prices.subtitle')}
-            </h2>
+            </h1>
 
             {/* Important Notice */}
             <Alert className="mb-12 fade-in">
@@ -49,9 +46,6 @@ const Prices = () => {
 
             {/* Price Table */}
             <Card className="mb-12 fade-in">
-              <CardHeader>
-                <CardTitle className="text-center">Priser</CardTitle>
-              </CardHeader>
               <CardContent>
                 <div className="overflow-x-auto">
                   <table className="w-full">
@@ -138,11 +132,11 @@ const Prices = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center p-4 bg-warm-neutral rounded-lg">
                     <span>{t('prices.initial_consultation')}</span>
-                    <span className="font-bold text-accent">1.500 kr.</span>
+                    <span className="font-bold text-accent">{formatPrice(PRICING.ADHD_INITIAL_CONSULTATION)}</span>
                   </div>
                   <div className="flex justify-between items-center p-4 bg-warm-neutral rounded-lg">
                     <span>{t('prices.full_assessment')}</span>
-                    <span className="font-bold text-accent">7.000 kr.</span>
+                    <span className="font-bold text-accent whitespace-nowrap">{formatPrice(PRICING.ADHD_FULL_ASSESSMENT)}</span>
                   </div>
                 </div>
               </CardContent>

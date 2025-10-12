@@ -20,7 +20,7 @@ const Index = () => {
       {/* Hero Section */}
       <section 
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        // style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 hero-gradient"></div>
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto fade-in">

@@ -1,7 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Shield, AlertTriangle, CreditCard, Phone } from 'lucide-react';
 import Layout from '@/components/Layout';
+import TranslatedText from '@/components/TranslatedText';
+import { PRICING, formatPrice } from '@/config/pricing';
 
 const Practical = () => {
   const { t } = useTranslation();
@@ -19,24 +20,20 @@ const Practical = () => {
               {/* Conditions */}
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle className="flex items-center space-x-2">
-                    <Phone className="h-5 w-5 text-accent" />
-                    <span>{t('practical.conditions')}</span>
+                  <CardTitle>
+                    {t('practical.conditions')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    <li className="flex items-start space-x-2">
-                      <span className="text-accent mt-1">•</span>
-                      <span>{t('practical.condition_1')}</span>
+                    <li>
+                      {t('practical.condition_1')}
                     </li>
-                    <li className="flex items-start space-x-2">
-                      <span className="text-accent mt-1">•</span>
-                      <span>{t('practical.condition_2')}</span>
+                    <li>
+                      {t('practical.condition_2')}
                     </li>
-                    <li className="flex items-start space-x-2">
-                      <span className="text-accent mt-1">•</span>
-                      <span>{t('practical.condition_3')}</span>
+                    <li>
+                      {t('practical.condition_3')}
                     </li>
                   </ul>
                 </CardContent>
@@ -45,9 +42,8 @@ const Practical = () => {
               {/* Confidentiality */}
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle className="flex items-center space-x-2">
-                    <Shield className="h-5 w-5 text-accent" />
-                    <span>{t('practical.confidentiality')}</span>
+                  <CardTitle>
+                    {t('practical.confidentiality')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -58,22 +54,20 @@ const Practical = () => {
               {/* Cancellation Rules */}
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle className="flex items-center space-x-2">
-                    <AlertTriangle className="h-5 w-5 text-accent" />
-                    <span>{t('practical.cancellation')}</span>
+                  <CardTitle>
+                    {t('practical.cancellation')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="leading-relaxed">{t('practical.cancellation_text')}</p>
+                  <p className="leading-relaxed">{t('practical.cancellation_text', { cancellationFee: formatPrice(PRICING.CANCELLATION_FEE) })}</p>
                 </CardContent>
               </Card>
 
               {/* Payment Information */}
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle className="flex items-center space-x-2">
-                    <CreditCard className="h-5 w-5 text-accent" />
-                    <span>{t('practical.payment')}</span>
+                  <CardTitle>
+                    {t('practical.payment')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -81,16 +75,29 @@ const Practical = () => {
                     <div>
                       <h4 className="font-semibold mb-3">{t('practical.payment_title')}</h4>
                       <div className="space-y-4">
-                        <p>{t('practical.payment_text_1')}</p>
-                        <p>{t('practical.payment_text_2')}</p>
-                        <p>{t('practical.payment_text_3')}</p>
-                        <p>{t('practical.payment_text_4')}</p>
+                        <p><TranslatedText text={t('practical.payment_text_1')} /></p>
+                        <p><TranslatedText text={t('practical.payment_text_2')} /></p>
+                        <p><TranslatedText text={t('practical.payment_text_3')} /></p>
                       </div>
                     </div>
                     
                     <div className="border-t pt-6">
                       <h4 className="font-semibold mb-3">{t('practical.payment_method')}</h4>
-                      <p>{t('practical.payment_method_text')}</p>
+                      <p className="mb-4">{t('practical.payment_method_text')}</p>
+                      
+                      <div className="space-y-4">
+                        <div>
+                          <h5 className="font-semibold mb-2">{t('practical.payment_private_title')}</h5>
+                          <p className="mb-2">{t('practical.payment_private_text')}</p>
+                          <p className="text-sm text-muted-foreground mb-2">{t('practical.payment_private_note')}</p>
+                          <p className="font-mono text-sm">{t('practical.payment_private_mobilepay')}</p>
+                        </div>
+                        
+                        <div>
+                          <h5 className="font-semibold mb-2">{t('practical.payment_company_title')}</h5>
+                          <p className="font-mono text-sm">{t('practical.payment_company_bank')}</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
