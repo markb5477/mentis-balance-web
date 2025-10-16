@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import Layout from '@/components/Layout';
 import heroImage from '@/assets/hero-bay-view.jpg';
+import dpLogo from '@/assets/dansk-psykolog-forening-logo.svg';
 
 const Index = () => {
   const { t, i18n } = useTranslation();
@@ -64,6 +65,15 @@ const Index = () => {
               {t('home.quote_text')}
             </p>
           </blockquote>
+          
+          {/* Dansk Psykolog Forening Logo */}
+          <div className="mt-12 flex justify-center">
+            <img 
+              src={dpLogo} 
+              alt="Dansk Psykolog Forening" 
+              className="h-16 md:h-20 w-auto opacity-80 hover:opacity-100 transition-opacity"
+            />
+          </div>
         </div>
       </section>
     </Layout>
