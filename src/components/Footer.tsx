@@ -53,7 +53,7 @@ const Footer = () => {
 
           {/* Navigation Links */}
           <div className="space-y-4">
-            <h3 className="font-heading font-semibold text-lg">Navigation</h3>
+            <h3 className="font-heading font-semibold text-lg">{t('ui.navigation')}</h3>
             <nav className="flex flex-col space-y-2">
               <Link to={getLocalizedPath('home')} className="hover:text-accent transition-colors">
                 {t('navigation.home')}
@@ -78,7 +78,7 @@ const Footer = () => {
 
           {/* Legal Links */}
           <div className="space-y-4">
-            <h3 className="font-heading font-semibold text-lg">Legal</h3>
+            <h3 className="font-heading font-semibold text-lg">{t('ui.legal')}</h3>
             <nav className="flex flex-col space-y-2">
               <Link to={getLocalizedPath('privacy')} className="hover:text-accent transition-colors">
                 {t('footer.privacy')}
@@ -91,7 +91,7 @@ const Footer = () => {
 
           {/* Language Switcher */}
           <div className="space-y-4">
-            <h3 className="font-heading font-semibold text-lg">Language</h3>
+            <h3 className="font-heading font-semibold text-lg">{t('ui.language')}</h3>
             <LanguageSwitcher />
           </div>
         </div>

@@ -67,6 +67,7 @@
     "session_cards": "Cartões de sessão",
     "session_cards_text": "Compre cartões de sessão de terapia e obtenha economias significativas. Ofereço várias opções.",
     "student_discount": "Ofereço descontos para estudantes e desempregados - documentação deve ser mostrada:",
+    "student_discount_title": "Desconto para estudantes e desempregados",
     "adhd_assessment": "Avaliação de TDAH/DDA",
     "adhd_note": "Não estou afiliada ao seguro de saúde. Portanto, você não pode usar um encaminhamento do seu próprio médico, pois deve pagar pela avaliação você mesmo. NOTA: Você deve estar ciente de que trato apenas adultos, e não ofereço avaliação se você tem abuso atual de substâncias, se foi previamente dependente de substâncias, ou se foi diagnosticado com Esquizofrenia, Transtorno Afetivo Bipolar, Transtorno Funcional, Transtorno Alimentar, Transtorno de Personalidade, ou Transtorno do Espectro Autista.",
     "assessment_process": "Processo de avaliação",
@@ -130,5 +131,85 @@
     "practical_description": "Termos, confidencialidade, regras de cancelamento e informações práticas sobre tratamento psicológico.",
     "contact_title": "Contato | Mentis Balance",
     "contact_description": "Entre em contato com a psicóloga Tania Brandt para agendar uma consulta ou obter mais informações sobre o tratamento."
+  },
+  "errors": {
+    "not_found": "Ops! Página não encontrada",
+    "return_home": "Voltar ao início"
+  },
+  "ui": {
+    "navigation": "Navegação",
+    "legal": "Legal",
+    "language": "Idioma",
+    "logo_alt": "Logo do Mentis Balance",
+    "profile_alt": "Tania Brandt, Psicóloga Autorizada"
+  },
+  "contact_form": {
+    "title": "Enviar uma mensagem",
+    "email_subject": "Consulta de {{name}}",
+    "email_body": "Nome: {{name}}\nTelefone: {{phone}}\nEmail: {{email}}\n\nMensagem:\n{{message}}",
+    "toast_title": "Email aberto",
+    "toast_description": "Seu cliente de email deveria ter aberto com uma mensagem pré-preenchida.",
+    "iframe_title": "Localização do Mentis Balance"
+  },
+  "privacy": {
+    "title": "Processamento de Dados e GDPR",
+    "data_collection_title": "Que informações coletamos?",
+    "data_collection_items": [
+      "Nome e informações de contato (número de telefone, email)",
+      "Notas terapêuticas e informações do prontuário",
+      "Informações coletadas através de formulários de contato no site"
+    ],
+    "data_purpose_title": "Propósito do processamento de dados",
+    "data_purpose_items": [
+      "Fornecer tratamento psicológico e aconselhamento",
+      "Manter contato e agendar consultas",
+      "Cumprir requisitos legais de manutenção de registros"
+    ],
+    "data_storage_title": "Armazenamento de dados",
+    "data_storage_text": "As informações do cliente são armazenadas de acordo com os requisitos da lei de psicologia para manutenção de registros. Informações de contato do site são excluídas após 6 meses, a menos que seja estabelecido um relacionamento terapêutico.",
+    "confidentiality_title": "Confidencialidade",
+    "rights_title": "Seus direitos",
+    "rights_intro": "Você tem os seguintes direitos em relação ao processamento de suas informações pessoais:",
+    "rights_items": [
+      "Direito de acessar suas informações",
+      "Direito de correção de informações incorretas",
+      "Direito de exclusão sob circunstâncias especiais",
+      "Direito de reclamar à Autoridade de Proteção de Dados"
+    ],
+    "rights_contact": "Para perguntas sobre processamento de informações pessoais, entre em contato com Tania Brandt em",
+    "cookies_title": "Cookies",
+    "cookies_text": "Este site usa apenas cookies funcionais que são necessários para o funcionamento do site. Não usamos cookies de rastreamento ou análise sem seu consentimento."
+  },
+  "terms": {
+    "treatment_terms_title": "Termos de Tratamento",
+    "treatment_terms_intro": "Ao agendar uma consulta, você aceita os seguintes termos para tratamento psicológico no Mentis Balance.",
+    "booking_title": "Consultas e agendamento",
+    "booking_items": [
+      "Consultas são agendadas por contato telefônico ou através do formulário de contato",
+      "Confirmação da consulta é feita por telefone ou por email",
+      "Primeira sessão é recomendada para ser com presença física"
+    ],
+    "cancellation_title": "Regras de cancelamento",
+    "payment_title": "Pagamento",
+    "insurance_title": "Seguros e subsídios",
+    "quality_title": "Qualidade e ética",
+    "quality_items": [
+      "Tania Brandt é psicóloga autorizada e membro da Associação Dinamarquesa de Psicologia",
+      "O tratamento segue diretrizes éticas para psicólogos",
+      "Supervisão contínua e desenvolvimento profissional garantem alta qualidade",
+      "Confidencialidade é mantida de acordo com a lei de psicologia"
+    ],
+    "complaints_title": "Reclamações",
+    "complaints_text": "Qualquer reclamação sobre tratamento pode ser direcionada ao Conselho de Psicologia. Informações de contato podem ser encontradas em",
+    "complaints_contact": "Para perguntas sobre termos, entre em contato com Tania Brandt em"
+  },
+  "prices_table": {
+    "treatment_header": "Tratamento",
+    "duration_50": "50 min",
+    "duration_90": "90 min",
+    "session_3x": "3x terapia",
+    "session_5x": "5x terapia",
+    "price_per_session": "Preço por sessão",
+    "family_2_persons": "2 pess"
   }
 }

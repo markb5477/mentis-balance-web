@@ -17,7 +17,7 @@ const Privacy = () => {
             <div className="space-y-8">
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Databehandling og GDPR</CardTitle>
+                  <CardTitle>{t('privacy.title')}</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>
@@ -25,32 +25,30 @@ const Privacy = () => {
                     databeskyttelsesforordningen (GDPR).
                   </p>
                   
-                  <h3 className="font-semibold mt-6 mb-3">Hvilke oplysninger indsamler vi?</h3>
+                  <h3 className="font-semibold mt-6 mb-3">{t('privacy.data_collection_title')}</h3>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Navn og kontaktoplysninger (telefonnummer, e-mail)</li>
-                    <li>Terapeutiske notater og journaloplysninger</li>
-                    <li>Oplysninger indsamlet via kontaktformularer på hjemmesiden</li>
+                    {t('privacy.data_collection_items', { returnObjects: true }).map((item: string, index: number) => (
+                      <li key={index}>{item}</li>
+                    ))}
                   </ul>
                   
-                  <h3 className="font-semibold mt-6 mb-3">Formål med databehandling</h3>
+                  <h3 className="font-semibold mt-6 mb-3">{t('privacy.data_purpose_title')}</h3>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>At yde psykologisk behandling og rådgivning</li>
-                    <li>At opretholde kontakt og planlægge aftaler</li>
-                    <li>At opfylde lovkrav om journalføring</li>
+                    {t('privacy.data_purpose_items', { returnObjects: true }).map((item: string, index: number) => (
+                      <li key={index}>{item}</li>
+                    ))}
                   </ul>
                   
-                  <h3 className="font-semibold mt-6 mb-3">Opbevaring af data</h3>
+                  <h3 className="font-semibold mt-6 mb-3">{t('privacy.data_storage_title')}</h3>
                   <p>
-                    Klientoplysninger opbevares i overensstemmelse med psykologlovens krav om journalføring. 
-                    Kontaktoplysninger fra hjemmesiden slettes efter 6 måneder, medmindre der etableres et 
-                    terapeutisk forhold.
+                    {t('privacy.data_storage_text')}
                   </p>
                 </CardContent>
               </Card>
 
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Tavshedspligt</CardTitle>
+                  <CardTitle>{t('privacy.confidentiality_title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="leading-relaxed">
@@ -61,19 +59,18 @@ const Privacy = () => {
 
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Dine rettigheder</CardTitle>
+                  <CardTitle>{t('privacy.rights_title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="mb-4">Du har følgende rettigheder i forbindelse med behandling af dine personoplysninger:</p>
+                  <p className="mb-4">{t('privacy.rights_intro')}</p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Ret til indsigt i dine oplysninger</li>
-                    <li>Ret til berigtigelse af forkerte oplysninger</li>
-                    <li>Ret til sletning under særlige omstændigheder</li>
-                    <li>Ret til at klage til Datatilsynet</li>
+                    {t('privacy.rights_items', { returnObjects: true }).map((item: string, index: number) => (
+                      <li key={index}>{item}</li>
+                    ))}
                   </ul>
                   
                   <p className="mt-6">
-                    For spørgsmål om behandling af personoplysninger, kontakt Tania Brandt på 
+                    {t('privacy.rights_contact')} 
                     <a href="mailto:tania@mentisbalance.dk" className="text-accent hover:underline ml-1">
                       tania@mentisbalance.dk
                     </a>
@@ -83,12 +80,11 @@ const Privacy = () => {
 
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Cookies</CardTitle>
+                  <CardTitle>{t('privacy.cookies_title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p>
-                    Denne hjemmeside bruger kun funktionelle cookies, der er nødvendige for hjemmesidens drift. 
-                    Vi anvender ikke tracking-cookies eller analyse-cookies uden dit samtykke.
+                    {t('privacy.cookies_text')}
                   </p>
                 </CardContent>
               </Card>

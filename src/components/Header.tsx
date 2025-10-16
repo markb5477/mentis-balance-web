@@ -47,7 +47,7 @@ const Header = () => {
           <Link to="/" className="flex-shrink-0">
             <img 
               src={logo} 
-              alt="Mentis Balance Logo" 
+              alt={t('ui.logo_alt')} 
               className="h-12 md:h-16 w-auto"
             />
           </Link>

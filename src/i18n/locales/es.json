@@ -47,11 +47,11 @@
       "Crisis existenciales de vida",
       "Problemas de autoestima",
       "Reacciones de estrés",
-      "TEPT",
+      "TEPT- Estrés postraumático",
       "Ansiedad",
       "Problemas de relación",
       "Consultas familiares",
-      "Evaluación de TDAH",
+      "Evaluación de TDAH - Evaluación de TDAH/TDA-Trastorno de deficit de atención con hiperactividad/Trastorno de deficit de la atención",
       "Supervisión de otros psicólogos en camino a la autorización y otros grupos profesionales"
     ]
   },
@@ -67,6 +67,7 @@
     "session_cards": "Tarjetas de sesión",
     "session_cards_text": "Compra tarjetas de sesión de terapia y logra ahorros significativos. Ofrezco varias opciones.",
     "student_discount": "Ofrezco descuentos a estudiantes y desempleados - debes mostrar documentación:",
+    "student_discount_title": "Descuento para estudiantes y desempleados",
     "adhd_assessment": "Evaluación de TDAH/TDA-Trastorno de deficit de atención con hiperactividad/Trastorno de deficit de la atención.",
     "adhd_note": "No estoy afiliada al seguro social de salud (gult sundhedskort). Por lo tanto, no puedes usar una referencia de tu médico de cabecera para que el seguro social pague la evaluación, es decir tú mismo tienes que pagar la evaluación. NOTA: Debes saber que solo trato adultos, y no ofrezco evaluación si tienes abuso actual de sustancias, si previamente has sido dependiente de sustancias, o si has sido diagnosticado con Esquizofrenia, Trastorno Afectivo Bipolar, Trastorno Funcional, Trastorno Alimentario, Trastorno de Personalidad, o Trastorno del Espectro Autista.",
     "assessment_process": "Proceso de evaluación",
@@ -130,5 +131,85 @@
     "practical_description": "Términos, confidencialidad, reglas de cancelación e información práctica sobre tratamiento psicológico.",
     "contact_title": "Contacto | Mentis Balance",
     "contact_description": "Contacta a la psicóloga Tania Brandt para reservar una cita u obtener más información sobre el tratamiento."
+  },
+  "errors": {
+    "not_found": "¡Ups! Página no encontrada",
+    "return_home": "Volver al inicio"
+  },
+  "ui": {
+    "navigation": "Navegación",
+    "legal": "Legal",
+    "language": "Idioma",
+    "logo_alt": "Logo de Mentis Balance",
+    "profile_alt": "Tania Brandt, Psicóloga Autorizada"
+  },
+  "contact_form": {
+    "title": "Enviar un mensaje",
+    "email_subject": "Consulta de {{name}}",
+    "email_body": "Nombre: {{name}}\nTeléfono: {{phone}}\nEmail: {{email}}\n\nMensaje:\n{{message}}",
+    "toast_title": "Email abierto",
+    "toast_description": "Tu cliente de email debería haberse abierto con un mensaje pre-llenado.",
+    "iframe_title": "Ubicación de Mentis Balance"
+  },
+  "privacy": {
+    "title": "Procesamiento de Datos y GDPR",
+    "data_collection_title": "¿Qué información recopilamos?",
+    "data_collection_items": [
+      "Nombre e información de contacto (número de teléfono, email)",
+      "Notas terapéuticas e información del expediente",
+      "Información recopilada a través de formularios de contacto en el sitio web"
+    ],
+    "data_purpose_title": "Propósito del procesamiento de datos",
+    "data_purpose_items": [
+      "Proporcionar tratamiento psicológico y asesoramiento",
+      "Mantener contacto y programar citas",
+      "Cumplir con los requisitos legales de registro"
+    ],
+    "data_storage_title": "Almacenamiento de datos",
+    "data_storage_text": "La información del cliente se almacena de acuerdo con los requisitos de la ley de psicología para el mantenimiento de registros. La información de contacto del sitio web se elimina después de 6 meses, a menos que se establezca una relación terapéutica.",
+    "confidentiality_title": "Confidencialidad",
+    "rights_title": "Tus derechos",
+    "rights_intro": "Tienes los siguientes derechos con respecto al procesamiento de tu información personal:",
+    "rights_items": [
+      "Derecho a acceder a tu información",
+      "Derecho a corrección de información incorrecta",
+      "Derecho a eliminación bajo circunstancias especiales",
+      "Derecho a quejarte ante la Autoridad de Protección de Datos"
+    ],
+    "rights_contact": "Para preguntas sobre el procesamiento de información personal, contacta a Tania Brandt en",
+    "cookies_title": "Cookies",
+    "cookies_text": "Este sitio web solo utiliza cookies funcionales que son necesarias para el funcionamiento del sitio web. No utilizamos cookies de seguimiento o análisis sin tu consentimiento."
+  },
+  "terms": {
+    "treatment_terms_title": "Términos de Tratamiento",
+    "treatment_terms_intro": "Al reservar una cita, aceptas los siguientes términos para el tratamiento psicológico en Mentis Balance.",
+    "booking_title": "Citas y reservas",
+    "booking_items": [
+      "Las citas se reservan por contacto telefónico o a través del formulario de contacto",
+      "La confirmación de la cita se realiza por teléfono o por email",
+      "Se recomienda que la primera sesión sea con asistencia física"
+    ],
+    "cancellation_title": "Reglas de cancelación",
+    "payment_title": "Pago",
+    "insurance_title": "Seguros y subsidios",
+    "quality_title": "Calidad y ética",
+    "quality_items": [
+      "Tania Brandt es psicóloga autorizada y miembro de la Asociación Danesa de Psicología",
+      "El tratamiento sigue las pautas éticas para psicólogos",
+      "La supervisión continua y el desarrollo profesional aseguran alta calidad",
+      "Se mantiene la confidencialidad según la ley de psicología"
+    ],
+    "complaints_title": "Quejas",
+    "complaints_text": "Cualquier queja sobre el tratamiento puede dirigirse al Consejo de Psicología. La información de contacto se puede encontrar en",
+    "complaints_contact": "Para preguntas sobre términos, contacta a Tania Brandt en"
+  },
+  "prices_table": {
+    "treatment_header": "Tratamiento",
+    "duration_50": "50 min",
+    "duration_90": "90 min",
+    "session_3x": "3x terapia",
+    "session_5x": "5x terapia",
+    "price_per_session": "Precio por sesión",
+    "family_2_persons": "2 pers"
   }
 }

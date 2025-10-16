@@ -22,20 +22,20 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const subject = `Henvendelse fra ${formData.name}`;
-    const body = `Navn: ${formData.name}
-Telefon: ${formData.phone}
-Email: ${formData.email}
-
-Besked:
-${formData.message}`;
+    const subject = t('contact_form.email_subject', { name: formData.name });
+    const body = t('contact_form.email_body', {
+      name: formData.name,
+      phone: formData.phone,
+      email: formData.email,
+      message: formData.message
+    });
     
     const mailtoLink = `mailto:tania@mentisbalance.dk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
     
     toast({
-      title: "Email åbnet",
-      description: "Din email-klient skulle nu være åbnet med forudfyldt besked.",
+      title: t('contact_form.toast_title'),
+      description: t('contact_form.toast_description'),
     });
   };
 
@@ -119,7 +119,7 @@ ${formData.message}`;
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Mentis Balance Location"
+                      title={t('contact_form.iframe_title')}
                       className="rounded-lg"
                     ></iframe>
                   </CardContent>
@@ -130,7 +130,7 @@ ${formData.message}`;
               <div className="fade-in">
                 <Card>
                   <CardHeader>
-                    <CardTitle>Send en besked</CardTitle>
+                    <CardTitle>{t('contact_form.title')}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <form onSubmit={handleSubmit} className="space-y-6">

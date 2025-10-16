@@ -18,31 +18,31 @@ const Terms = () => {
             <div className="space-y-8">
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Behandlingsvilkår</CardTitle>
+                  <CardTitle>{t('terms.treatment_terms_title')}</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>
-                    Ved at booke en aftale accepterer du følgende vilkår for psykologbehandling hos Mentis Balance.
+                    {t('terms.treatment_terms_intro')}
                   </p>
                   
-                  <h3 className="font-semibold mt-6 mb-3">Aftaler og booking</h3>
+                  <h3 className="font-semibold mt-6 mb-3">{t('terms.booking_title')}</h3>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Aftaler bookes ved telefonisk henvendelse eller via kontaktformular</li>
-                    <li>Bekræftelse af aftale sker telefonisk eller via e-mail</li>
-                    <li>Første session anbefales at være med fysisk fremmøde</li>
+                    {t('terms.booking_items', { returnObjects: true }).map((item: string, index: number) => (
+                      <li key={index}>{item}</li>
+                    ))}
                   </ul>
                   
-                  <h3 className="font-semibold mt-6 mb-3">Afbudsregler</h3>
+                  <h3 className="font-semibold mt-6 mb-3">{t('terms.cancellation_title')}</h3>
                   <p>{t('practical.cancellation_text')}</p>
                   
-                  <h3 className="font-semibold mt-6 mb-3">Betaling</h3>
+                  <h3 className="font-semibold mt-6 mb-3">{t('terms.payment_title')}</h3>
                   <p>{t('practical.payment_method_text')}</p>
                 </CardContent>
               </Card>
 
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Forsikring og tilskud</CardTitle>
+                  <CardTitle>{t('terms.insurance_title')}</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p>{t('practical.payment_text_1')}</p>
@@ -53,30 +53,29 @@ const Terms = () => {
 
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Kvalitet og etik</CardTitle>
+                  <CardTitle>{t('terms.quality_title')}</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Tania Brandt er autoriseret psykolog og medlem af Dansk Psykolog Forening</li>
-                    <li>Behandlingen følger etiske retningslinjer for psykologer</li>
-                    <li>Løbende supervision og faglig udvikling sikrer høj kvalitet</li>
-                    <li>Tavshedspligt overholdes i henhold til psykologloven</li>
+                    {t('terms.quality_items', { returnObjects: true }).map((item: string, index: number) => (
+                      <li key={index}>{item}</li>
+                    ))}
                   </ul>
                 </CardContent>
               </Card>
 
               <Card className="fade-in">
                 <CardHeader>
-                  <CardTitle>Klager</CardTitle>
+                  <CardTitle>{t('terms.complaints_title')}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p>
-                    Eventuelle klager over behandling kan rettes til Psykolognævnet. 
-                    Kontakt information findes på <a href="https://www.psykolognaevnet.dk" className="text-accent hover:underline">psykolognaevnet.dk</a>
+                    {t('terms.complaints_text')} 
+                    <a href="https://www.psykolognaevnet.dk" className="text-accent hover:underline">psykolognaevnet.dk</a>
                   </p>
                   
                   <p className="mt-4">
-                    For spørgsmål til vilkår, kontakt Tania Brandt på 
+                    {t('terms.complaints_contact')} 
                     <a href="tel:+4521636222" className="text-accent hover:underline ml-1">21 63 62 22</a> eller 
                     <a href="mailto:tania@mentisbalance.dk" className="text-accent hover:underline ml-1">tania@mentisbalance.dk</a>
                   </p>

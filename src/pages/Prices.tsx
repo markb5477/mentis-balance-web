@@ -13,18 +13,18 @@ const Prices = () => {
     { service: t('prices.supervision'), price50: formatPrice(PRICING.SUPERVISION_50MIN), price90: PRICING.SUPERVISION_90MIN },
     { service: t('prices.self_therapy'), price50: formatPrice(PRICING.SELF_THERAPY_50MIN), price90: PRICING.SELF_THERAPY_90MIN },
     { service: t('prices.ptsd_treatment'), price50: PRICING.PTSD_TREATMENT_50MIN, price90: formatPrice(PRICING.PTSD_TREATMENT_90MIN) },
-    { service: t('prices.family_sessions'), price50: formatPrice(PRICING.FAMILY_SESSIONS_50MIN), price90: formatPriceWithText(PRICING.FAMILY_SESSIONS_90MIN, '2 prs') },
+    { service: t('prices.family_sessions'), price50: formatPrice(PRICING.FAMILY_SESSIONS_50MIN), price90: formatPriceWithText(PRICING.FAMILY_SESSIONS_90MIN, t('prices_table.family_2_persons')) },
   ];
 
   const sessionCards = [
-    { sessions: '3x terapi', price: formatPrice(PRICING.SESSION_CARD_3X) },
-    { sessions: '5x terapi', price: formatPrice(PRICING.SESSION_CARD_5X) },
+    { sessions: t('prices_table.session_3x'), price: formatPrice(PRICING.SESSION_CARD_3X) },
+    { sessions: t('prices_table.session_5x'), price: formatPrice(PRICING.SESSION_CARD_5X) },
   ];
 
   const studentPrices = [
-    { sessions: 'Pris pr. session', price: formatPrice(PRICING.STUDENT_SESSION_PRICE) },
-    { sessions: '3x terapi', price: formatPrice(PRICING.STUDENT_3X_CARD) },
-    { sessions: '5x terapi', price: formatPrice(PRICING.STUDENT_5X_CARD) },
+    { sessions: t('prices_table.price_per_session'), price: formatPrice(PRICING.STUDENT_SESSION_PRICE) },
+    { sessions: t('prices_table.session_3x'), price: formatPrice(PRICING.STUDENT_3X_CARD) },
+    { sessions: t('prices_table.session_5x'), price: formatPrice(PRICING.STUDENT_5X_CARD) },
   ];
 
   return (
@@ -51,9 +51,9 @@ const Prices = () => {
                   <table className="w-full">
                     <thead>
                       <tr className="border-b">
-                        <th className="text-left py-3">Behandling</th>
-                        <th className="text-center py-3">50 min</th>
-                        <th className="text-center py-3">90 min</th>
+                        <th className="text-left py-3">{t('prices_table.treatment_header')}</th>
+                        <th className="text-center py-3">{t('prices_table.duration_50')}</th>
+                        <th className="text-center py-3">{t('prices_table.duration_90')}</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -98,7 +98,7 @@ const Prices = () => {
             {/* Student Discount */}
             <Card className="mb-12 fade-in">
               <CardHeader>
-                <CardTitle>Rabat til studerende og ledige</CardTitle>
+                <CardTitle>{t('prices.student_discount_title')}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="mb-4">{t('prices.student_discount')}</p>

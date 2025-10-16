@@ -66,6 +66,7 @@
     "session_cards": "Klippekort",
     "session_cards_text": "Køb terapi klippekort og opnå en stor besparelse. Jeg tilbyder forskellige muligheder.",
     "student_discount": "Jeg giver rabat til studerende og ledige – dokumentation herfor skal forevises:",
+    "student_discount_title": "Rabat til studerende og ledige",
     "adhd_assessment": "Udredning ADHD/ADD",
     "adhd_note": "Jeg er ikke tilknyttet sygesikringen. Derfor kan du ikke anvende en henvisning fra egen læge, for du du selv skal betale for udredningen. OBS. Du skal være opmærksom på, at jeg kun behandler voksne, ligesom jeg ikke tilbyder udredning, hvis du har et aktuelt misbrug af rusmidler, hvis du tidligere har været afhængig af rusmidler eller hvis du har fået konstateret Skizofreni, Bipolar Affektiv Sindslidelse, Funktionel Lidelse, Spiseforstyrrelse, Personlighedsforstyrrelse eller Autismespektrum Lidelse.",
     "assessment_process": "Udredningsforløb",
@@ -129,5 +130,85 @@
     "practical_description": "Vilkår, tavshedspligt, afbudsregler og praktisk information om psykologisk behandling.",
     "contact_title": "Kontakt | Mentis Balance",
     "contact_description": "Kontakt psykolog Tania Brandt for at booke en tid eller få mere information om behandling."
+  },
+  "errors": {
+    "not_found": "Ups! Side ikke fundet",
+    "return_home": "Tilbage til hjem"
+  },
+  "ui": {
+    "navigation": "Navigation",
+    "legal": "Juridisk",
+    "language": "Sprog",
+    "logo_alt": "Mentis Balance Logo",
+    "profile_alt": "Tania Brandt, Autoriseret Psykolog"
+  },
+  "contact_form": {
+    "title": "Send en besked",
+    "email_subject": "Henvendelse fra {{name}}",
+    "email_body": "Navn: {{name}}\nTelefon: {{phone}}\nEmail: {{email}}\n\nBesked:\n{{message}}",
+    "toast_title": "Email åbnet",
+    "toast_description": "Din email-klient skulle nu være åbnet med forudfyldt besked.",
+    "iframe_title": "Mentis Balance Lokation"
+  },
+  "privacy": {
+    "title": "Databehandling og GDPR",
+    "data_collection_title": "Hvilke oplysninger indsamler vi?",
+    "data_collection_items": [
+      "Navn og kontaktoplysninger (telefonnummer, e-mail)",
+      "Terapeutiske notater og journaloplysninger",
+      "Oplysninger indsamlet via kontaktformularer på hjemmesiden"
+    ],
+    "data_purpose_title": "Formål med databehandling",
+    "data_purpose_items": [
+      "At yde psykologisk behandling og rådgivning",
+      "At opretholde kontakt og planlægge aftaler",
+      "At opfylde lovkrav om journalføring"
+    ],
+    "data_storage_title": "Opbevaring af data",
+    "data_storage_text": "Klientoplysninger opbevares i overensstemmelse med psykologlovens krav om journalføring. Kontaktoplysninger fra hjemmesiden slettes efter 6 måneder, medmindre der etableres et terapeutisk forhold.",
+    "confidentiality_title": "Tavshedspligt",
+    "rights_title": "Dine rettigheder",
+    "rights_intro": "Du har følgende rettigheder i forbindelse med behandling af dine personoplysninger:",
+    "rights_items": [
+      "Ret til indsigt i dine oplysninger",
+      "Ret til berigtigelse af forkerte oplysninger",
+      "Ret til sletning under særlige omstændigheder",
+      "Ret til at klage til Datatilsynet"
+    ],
+    "rights_contact": "For spørgsmål om behandling af personoplysninger, kontakt Tania Brandt på",
+    "cookies_title": "Cookies",
+    "cookies_text": "Denne hjemmeside bruger kun funktionelle cookies, der er nødvendige for hjemmesidens drift. Vi anvender ikke tracking-cookies eller analyse-cookies uden dit samtykke."
+  },
+  "terms": {
+    "treatment_terms_title": "Behandlingsvilkår",
+    "treatment_terms_intro": "Ved at booke en aftale accepterer du følgende vilkår for psykologbehandling hos Mentis Balance.",
+    "booking_title": "Aftaler og booking",
+    "booking_items": [
+      "Aftaler bookes ved telefonisk henvendelse eller via kontaktformular",
+      "Bekræftelse af aftale sker telefonisk eller via e-mail",
+      "Første session anbefales at være med fysisk fremmøde"
+    ],
+    "cancellation_title": "Afbudsregler",
+    "payment_title": "Betaling",
+    "insurance_title": "Forsikring og tilskud",
+    "quality_title": "Kvalitet og etik",
+    "quality_items": [
+      "Tania Brandt er autoriseret psykolog og medlem af Dansk Psykolog Forening",
+      "Behandlingen følger etiske retningslinjer for psykologer",
+      "Løbende supervision og faglig udvikling sikrer høj kvalitet",
+      "Tavshedspligt overholdes i henhold til psykologloven"
+    ],
+    "complaints_title": "Klager",
+    "complaints_text": "Eventuelle klager over behandling kan rettes til Psykolognævnet. Kontakt information findes på",
+    "complaints_contact": "For spørgsmål til vilkår, kontakt Tania Brandt på"
+  },
+  "prices_table": {
+    "treatment_header": "Behandling",
+    "duration_50": "50 min",
+    "duration_90": "90 min",
+    "session_3x": "3x terapi",
+    "session_5x": "5x terapi",
+    "price_per_session": "Pris pr. session",
+    "family_2_persons": "2 prs"
   }
 }
