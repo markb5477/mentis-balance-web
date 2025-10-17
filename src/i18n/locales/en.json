@@ -109,6 +109,7 @@
     "address_line_4": "2400 Copenhagen NV",
     "phone": "Phone",
     "email": "Email",
+    "cvr": "CVR no.",
     "parking": "There is free parking very close to the premises, which is also about a 5-minute walk from Nørrebro station.",
     "form": {
       "name": "Full name",

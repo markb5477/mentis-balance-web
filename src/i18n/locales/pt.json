@@ -109,6 +109,7 @@
     "address_line_4": "2400 Copenhague NV",
     "phone": "Telefone",
     "email": "Email",
+    "cvr": "CVR no.",
     "parking": "Há estacionamento gratuito muito perto das instalações, que também fica a cerca de 5 minutos a pé da estação Nørrebro.",
     "form": {
       "name": "Nome completo",

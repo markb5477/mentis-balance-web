@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, Mail, MapPin, Car } from 'lucide-react';
+import { Phone, Mail, MapPin, Car, Building2 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import Layout from '@/components/Layout';
 
@@ -98,6 +98,14 @@ const Contact = () => {
                           <p>{t('contact.address_line_3')}</p>
                           <p>{t('contact.address_line_4')}</p>
                         </div>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center space-x-3">
+                      <Building2 className="h-5 w-5 text-accent" />
+                      <div>
+                        <p className="font-medium">{t('contact.cvr')}</p>
+                        <p className="text-accent">45933903</p>
                       </div>
                     </div>
                     

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Building2 } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const Footer = () => {
@@ -47,6 +47,12 @@ const Footer = () => {
                   <div>{t('contact.address_line_2')}</div>
                   <div>{t('contact.address_line_3')}</div>
                 </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Building2 className="h-4 w-4 text-accent" />
+                <span className="text-sm">
+                  {t('contact.cvr')} 45933903
+                </span>
               </div>
             </div>
           </div>

@@ -108,6 +108,7 @@
     "address_line_4": "2400 København NV",
     "phone": "Tlf.",
     "email": "Email",
+    "cvr": "CVR-nr.",
     "parking": "Der er gratis parkering meget tæt på lokalet, som desuden ligger ca. 5 minutters gang fra Nørrebro stationen.",
     "form": {
       "name": "Fulde navn",
