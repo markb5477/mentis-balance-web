@@ -60,8 +60,8 @@
     "note": "NOTA: Não estou afiliada ao seguro de saúde e, portanto, você não pode usar um encaminhamento do seu próprio médico. Uma sessão dura 50 minutos.",
     "individual_therapy": "Terapia individual",
     "supervision": "Supervisão de psicólogos a caminho da autorização",
-    "group_supervision": "Supervisão em grupo (2-6 pessoas) ligue para mais informações sobre o preço",
-    "self_therapy": "Autoterapia para psicólogos",
+    "group_supervision": "Supervisão em grupo para 2 pessoas: 1.500 kr./hora\nSupervisão em grupo para 3-5 pessoas: 1.600 kr./hora\nSupervisão em grupo para 6 pessoas ou mais: 2.000 kr./hora",
+    "self_therapy": "Autoterapia para psicólogos (para cursos mais longos, entre em contato para preço)",
     "ptsd_treatment": "Tratamento de TEPT",
     "family_sessions": "Consultas familiares",
     "session_cards": "Cartões de sessão",
@@ -211,6 +211,13 @@
     "session_3x": "3x terapia",
     "session_5x": "5x terapia",
     "price_per_session": "Preço por sessão",
-    "family_2_persons": "2 pess"
+    "family_2_persons": "2 pess",
+    "price": "Preço"
+  },
+  "group_supervision": {
+    "title": "Supervisão em Grupo",
+    "2_people": "Supervisão em grupo para 2 pessoas",
+    "3_5_people": "Supervisão em grupo para 3-5 pessoas",
+    "6_plus_people": "Supervisão em grupo para 6 pessoas ou mais"
   }
 }

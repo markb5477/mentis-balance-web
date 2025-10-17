@@ -60,8 +60,8 @@
     "note": "NOTA: No estoy afiliada al seguro social de salud \"gult sundhedskort\" y por lo tanto no puedes usar la referencia de tu médico de cabecera para adquirir un tratamiento psicologico. ",
     "individual_therapy": "Terapia individual",
     "supervision": "Supervisión de psicólogos en camino a la autorización",
-    "group_supervision": "Supervisión grupal (2-6 personas) llama para más información sobre el precio",
-    "self_therapy": "Autoterapia para psicólogos",
+    "group_supervision": "Supervisión grupal para 2 personas: 1.500 kr./hora\nSupervisión grupal para 3-5 personas: 1.600 kr./hora\nSupervisión grupal para 6 personas o más: 2.000 kr./hora",
+    "self_therapy": "Autoterapia para psicólogos (para cursos más largos, contacta para precio)",
     "ptsd_treatment": "Tratamiento de TEPT",
     "family_sessions": "Consultas familiares",
     "session_cards": "Tarjetas de sesión",
@@ -211,6 +211,13 @@
     "session_3x": "3x terapia",
     "session_5x": "5x terapia",
     "price_per_session": "Precio por sesión",
-    "family_2_persons": "2 pers"
+    "family_2_persons": "2 pers",
+    "price": "Precio"
+  },
+  "group_supervision": {
+    "title": "Supervisión Grupal",
+    "2_people": "Supervisión grupal para 2 personas",
+    "3_5_people": "Supervisión grupal para 3-5 personas",
+    "6_plus_people": "Supervisión grupal para 6 personas o más"
   }
 }

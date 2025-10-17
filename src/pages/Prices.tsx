@@ -17,14 +17,25 @@ const Prices = () => {
   ];
 
   const sessionCards = [
-    { sessions: t('prices_table.session_3x'), price: formatPrice(PRICING.SESSION_CARD_3X) },
-    { sessions: t('prices_table.session_5x'), price: formatPrice(PRICING.SESSION_CARD_5X) },
+    { service: t('prices_table.session_3x'), price50: formatPrice(PRICING.SESSION_CARD_3X), price90: '' },
+    { service: t('prices_table.session_5x'), price50: formatPrice(PRICING.SESSION_CARD_5X), price90: '' },
   ];
 
   const studentPrices = [
-    { sessions: t('prices_table.price_per_session'), price: formatPrice(PRICING.STUDENT_SESSION_PRICE) },
-    { sessions: t('prices_table.session_3x'), price: formatPrice(PRICING.STUDENT_3X_CARD) },
-    { sessions: t('prices_table.session_5x'), price: formatPrice(PRICING.STUDENT_5X_CARD) },
+    { service: t('prices_table.price_per_session'), price50: formatPrice(PRICING.STUDENT_SESSION_PRICE), price90: '' },
+    { service: t('prices_table.session_3x'), price50: formatPrice(PRICING.STUDENT_3X_CARD), price90: '' },
+    { service: t('prices_table.session_5x'), price50: formatPrice(PRICING.STUDENT_5X_CARD), price90: '' },
+  ];
+
+  const groupSupervisionItems = [
+    { service: t('group_supervision.2_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_2_PEOPLE), price90: '' },
+    { service: t('group_supervision.3_5_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_3_5_PEOPLE), price90: '' },
+    { service: t('group_supervision.6_plus_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_6_PLUS_PEOPLE), price90: '' },
+  ];
+
+  const adhdAssessmentItems = [
+    { service: t('prices.initial_consultation'), price50: formatPrice(PRICING.ADHD_INITIAL_CONSULTATION), price90: '' },
+    { service: t('prices.full_assessment'), price50: formatPrice(PRICING.ADHD_FULL_ASSESSMENT), price90: '' },
   ];
 
   return (
@@ -70,30 +81,63 @@ const Prices = () => {
               </CardContent>
             </Card>
 
-            {/* Group Supervision */}
-            <Card className="mb-8 fade-in">
-              <CardContent className="p-6">
-                <p className="text-center font-medium">{t('prices.group_supervision')}</p>
-              </CardContent>
-            </Card>
+            {/* Secondary Pricing Tables - Side by Side */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              {/* Group Supervision */}
+              <Card className="fade-in">
+                <CardHeader>
+                  <CardTitle>{t('group_supervision.title')}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="overflow-x-auto">
+                    <table className="w-full">
+                      <thead>
+                        <tr className="border-b">
+                          <th className="text-left py-3 w-1/2">{t('prices_table.treatment_header')}</th>
+                          <th className="text-center py-3 w-1/2">{t('prices_table.price')}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {groupSupervisionItems.map((item, index) => (
+                          <tr key={index} className="border-b">
+                            <td className="py-3 w-1/2">{item.service}</td>
+                            <td className="text-center py-3 w-1/2">{item.price50}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </CardContent>
+              </Card>
 
-            {/* Session Cards */}
-            <Card className="mb-12 fade-in">
-              <CardHeader>
-                <CardTitle>{t('prices.session_cards')}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="mb-4">{t('prices.session_cards_text')}</p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {sessionCards.map((card, index) => (
-                    <div key={index} className="flex justify-between items-center p-4 bg-warm-neutral rounded-lg">
-                      <span>{card.sessions}</span>
-                      <span className="font-bold text-accent">{card.price}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+              {/* Session Cards */}
+              <Card className="fade-in">
+                <CardHeader>
+                  <CardTitle>{t('prices.session_cards')}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="mb-4">{t('prices.session_cards_text')}</p>
+                  <div className="overflow-x-auto">
+                    <table className="w-full">
+                      <thead>
+                        <tr className="border-b">
+                          <th className="text-left py-3 w-1/2">{t('prices_table.treatment_header')}</th>
+                          <th className="text-center py-3 w-1/2">{t('prices_table.price')}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {sessionCards.map((item, index) => (
+                          <tr key={index} className="border-b">
+                            <td className="py-3 w-1/2">{item.service}</td>
+                            <td className="text-center py-3 w-1/2">{item.price50}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
 
             {/* Student Discount */}
             <Card className="mb-12 fade-in">
@@ -102,13 +146,23 @@ const Prices = () => {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">{t('prices.student_discount')}</p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  {studentPrices.map((price, index) => (
-                    <div key={index} className="flex justify-between items-center p-4 bg-warm-neutral rounded-lg">
-                      <span>{price.sessions}</span>
-                      <span className="font-bold text-accent">{price.price}</span>
-                    </div>
-                  ))}
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead>
+                      <tr className="border-b">
+                        <th className="text-left py-3 w-1/2">{t('prices_table.treatment_header')}</th>
+                        <th className="text-center py-3 w-1/2">{t('prices_table.price')}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {studentPrices.map((item, index) => (
+                        <tr key={index} className="border-b">
+                          <td className="py-3 w-1/2">{item.service}</td>
+                          <td className="text-center py-3 w-1/2">{item.price50}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               </CardContent>
             </Card>
@@ -129,15 +183,23 @@ const Prices = () => {
                 <h4 className="font-semibold mb-4">{t('prices.assessment_process')}</h4>
                 <p className="mb-4">{t('prices.assessment_process_text')}</p>
                 
-                <div className="space-y-3">
-                  <div className="flex justify-between items-center p-4 bg-warm-neutral rounded-lg">
-                    <span>{t('prices.initial_consultation')}</span>
-                    <span className="font-bold text-accent">{formatPrice(PRICING.ADHD_INITIAL_CONSULTATION)}</span>
-                  </div>
-                  <div className="flex justify-between items-center p-4 bg-warm-neutral rounded-lg">
-                    <span>{t('prices.full_assessment')}</span>
-                    <span className="font-bold text-accent whitespace-nowrap">{formatPrice(PRICING.ADHD_FULL_ASSESSMENT)}</span>
-                  </div>
+                <div className="overflow-x-auto">
+                  <table className="w-full">
+                    <thead>
+                      <tr className="border-b">
+                        <th className="text-left py-3 w-1/2">{t('prices_table.treatment_header')}</th>
+                        <th className="text-center py-3 w-1/2">{t('prices_table.price')}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {adhdAssessmentItems.map((item, index) => (
+                        <tr key={index} className="border-b">
+                          <td className="py-3 w-1/2">{item.service}</td>
+                          <td className="text-center py-3 w-1/2">{item.price50}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               </CardContent>
             </Card>
