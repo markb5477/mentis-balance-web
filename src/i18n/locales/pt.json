@@ -31,7 +31,7 @@
   },
   "profile": {
     "title": "Perfil",
-    "bio": "Meu nome é Tania Brandt, tenho 50 anos, sou casada e tenho dois filhos.\n\nSou psicóloga formada e autorizada pelo Conselho de Psicologia e tenho mais de 20 anos de experiência e continuei minha educação. Mais tarde em 2025, espero me tornar Especialista em Psicoterapia para adultos (Associação Dinamarquesa de Psicologia).\n\nParticipo regularmente de cursos e recebo supervisão contínua em meu trabalho.\n\nComo psicóloga, estou coberta pelas diretrizes éticas e naturalmente observo a confidencialidade, que são fundamentais na psicologia para proteger seus direitos, fomentar a confiança e garantir o bem-estar.\n\nÉ importante para mim conhecê-lo e suas necessidades agora, onde você está em sua vida. Na terapia, recorro a elementos de abordagens terapêuticas que melhor atendem às suas necessidades.\n\nTalvez você precise se entender melhor: de onde vem sua vulnerabilidade, como você encontra paz e como se aproxima da vida que deseja.\n\nTambém tenho experiência significativa com o sistema de tratamento público, portanto, poderei aconselhá-lo sobre seu problema — seja você precisando de ajuda de mim ou se há necessidade de um esforço interdisciplinar para ajudá-lo da melhor maneira possível.\n\nEspero conhecê-lo. Você é bem-vindo!"
+    "bio": "Meu nome é Tania Brandt, tenho 50 anos, sou casada e tenho dois filhos. Ofereço tratamento psicológico para adultos. Especializei-me em Terapia Cognitiva. Também ofereço supervisão para psicólogos que querem obter sua autorização.\n\n Sou psicóloga clínica e ocupacional. Sou autorizada pela Associação Dinamarquesa de Psicólogos e tenho mais de 20 anos de experiência. No final de 2025 serei especialista em terapia para adultos. Participo de cursos e recebo supervisão contínua no meu trabalho.\n\n Especializo-me em avaliação, diagnóstico, tratamento e prevenção de riscos de problemas de saúde mental e comportamentos desadaptativos que podem afetar o local de trabalho devido a distúrbios psicológicos. Tenho experiência no tratamento de problemas psicológicos no local de trabalho porque trabalhei em empresas privadas ajudando pessoas em licença médica que retornaram ao trabalho.\n\n <strong>Bem-vindo ao seu espaço para melhorar seu bem-estar emocional.</strong>\n\n Para mim, o processo terapêutico começa com a colaboração mútua baseada na confiança, respeito, empatia e abertura que é importante para refletir sobre os problemas que você enfrenta em sua vida e seu bem-estar psicológico.\n\n Também é importante para mim conhecer e compreender suas necessidades que você está passando em sua vida. Na terapia utilizaremos elementos de reflexão terapêutica específicos para suas necessidades. Talvez você precise se entender melhor, de onde vem sua vulnerabilidade, como encontra paz e como se aproxima da vida que deseja.\n\n Tenho experiência no sistema público, então posso aconselhá-lo sobre seu problema independentemente de você precisar da minha ajuda ou se precisar de uma equipe interdisciplinar no setor hospitalar.\n\n Espero poder ajudá-lo. Bem-vindo!"
   },
   "treatment": {
     "title": "Tratamento",
@@ -52,7 +52,7 @@
       "Problemas de relacionamento",
       "Consultas familiares",
       "Avaliação de TDAH",
-      "Supervisão de outros psicólogos a caminho da autorização e outros grupos profissionais"
+      "Supervisão de Psicólogos"
     ]
   },
   "prices": {
@@ -219,5 +219,6 @@
     "2_people": "Supervisão em grupo para 2 pessoas",
     "3_5_people": "Supervisão em grupo para 3-5 pessoas",
     "6_plus_people": "Supervisão em grupo para 6 pessoas ou mais"
-  }
+  },
+  "member_of": "Membro de"
 }

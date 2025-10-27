@@ -46,6 +46,7 @@ const Footer = () => {
                   <div>{t('contact.address_line_1')}</div>
                   <div>{t('contact.address_line_2')}</div>
                   <div>{t('contact.address_line_3')}</div>
+                  <div>{t('contact.address_line_4')}</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

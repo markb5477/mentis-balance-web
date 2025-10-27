@@ -38,7 +38,7 @@ export const PRICING = {
   
   // ADHD Assessment
   ADHD_INITIAL_CONSULTATION: '1.500',
-  ADHD_FULL_ASSESSMENT: '17.000',
+  ADHD_FULL_ASSESSMENT: '12.000',
   
   // Cancellation fee
   CANCELLATION_FEE: '500'

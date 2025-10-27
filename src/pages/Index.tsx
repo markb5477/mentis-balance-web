@@ -65,9 +65,12 @@ const Index = () => {
               {t('home.quote_text')}
             </p>
           </blockquote>
-          
           {/* Dansk Psykolog Forening Logo */}
-          <div className="mt-12 flex justify-center">
+          
+          <div className="mt-12 flex flex-col items-center">
+            <p className="text-2xl md:text-3xl font-light text-primary mb-2">
+              {t('member_of')}
+            </p>
             <img 
               src={dpLogo} 
               alt="Dansk Psykolog Forening" 

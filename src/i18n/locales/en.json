@@ -31,7 +31,7 @@
   },
   "profile": {
     "title": "Profile",
-    "bio": "My name is Tania Brandt, I am in my 50s, married and have two children.\n\nI am a trained psychologist and authorized by the Psychology Board and have more than 20 years of experience and have pursued continuing education. Later in 2025, I expect to become a Specialist in Psychotherapy for adults (Danish Psychology Association).\n\nI regularly participate in courses and receive ongoing supervision in my work.\n\nAs a psychologist, I am covered by ethical guidelines and naturally observe confidentiality, which are fundamental in psychology to protect your rights, foster trust and ensure well-being.\n\nIt is important to me to meet you and your needs right now, where you are in your life. In therapy, I draw on elements from therapeutic approaches that best meet your needs.\n\nPerhaps you need to better understand yourself: where does your vulnerability come from, how do you find peace, and how do you get closer to the life you desire.\n\nI also have significant experience with the public treatment system, therefore, I will be able to advise you regarding your issue — whether you need help from me or whether there is a need for an interdisciplinary effort to help you in the best possible way.\n\nI look forward to meeting you. You are welcome!"
+    "bio": "My name is Tania Brandt, I am in my 50s, married and have two children. I offer psychological treatment to adults. I have specialized in Cognitive Therapy. I also offer supervision to psychologists who want to obtain their authorization.\n\n I am both a clinical and occupational psychologist. I am authorized by the Danish Psychology Association and have more than 20 years of experience. At the end of 2025 I will be a specialist in therapy for adults. I participate in courses and receive continuous supervision in my work.\n\n I specialize in evaluation, diagnosis, treatment and prevention of risks of mental health problems and maladaptive behaviors that can affect the workplace due to psychological disorders. I have experience in treating psychological problems in the workplace because I have worked in private companies helping people on sick leave who have returned to work.\n\n <strong>Welcome to your space to improve your emotional well-being.</strong>\n\n For me, the therapeutic process begins with mutual collaboration based on trust, respect, empathy and openness that is important for reflecting on the problems you face in your life and your psychological well-being.\n\n It is also important for me to know and understand your needs that you are going through in your life. In therapy we will use therapeutic reflection elements specific to your needs. Perhaps you need to understand yourself better, where your vulnerability comes from, how you find peace and how you approach the life you want.\n\n I have experience in the public system so I can advise you about your problem regardless of whether you need my help or if you require an interdisciplinary team in the hospital sector.\n\n I hope I can help you. Welcome!"
   },
   "treatment": {
     "title": "Treatment",
@@ -52,7 +52,7 @@
       "Relationship problems",
       "Family consultations",
       "ADHD assessment",
-      "Supervision of other psychologists on their way to authorization and other professional groups"
+      "Supervision of Psychologists"
     ]
   },
   "prices": {
@@ -219,5 +219,6 @@
     "2_people": "Group supervision for 2 people",
     "3_5_people": "Group supervision for 3-5 people",
     "6_plus_people": "Group supervision for 6 people or more"
-  }
+  },
+  "member_of": "Member of"
 }
