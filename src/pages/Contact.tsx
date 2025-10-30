@@ -1,50 +1,10 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Textarea } from '@/components/ui/textarea';
 import { Phone, Mail, MapPin, Car, Building2 } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
 import Layout from '@/components/Layout';
 
 const Contact = () => {
   const { t } = useTranslation();
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: '',
-    phone: '',
-    email: '',
-    message: '',
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    const subject = t('contact_form.email_subject', { name: formData.name });
-    const body = t('contact_form.email_body', {
-      name: formData.name,
-      phone: formData.phone,
-      email: formData.email,
-      message: formData.message
-    });
-    
-    const mailtoLink = `mailto:tania@mentisbalance.dk?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
-    
-    toast({
-      title: t('contact_form.toast_title'),
-      description: t('contact_form.toast_description'),
-    });
-  };
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
 
   return (
     <Layout>
@@ -55,7 +15,7 @@ const Contact = () => {
               {t('contact.title')}
             </h1>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="grid grid-cols-1 gap-12">
               {/* Contact Information */}
               <div className="space-y-8 fade-in">
                 <div>
@@ -71,7 +31,8 @@ const Contact = () => {
                     <div className="flex items-center space-x-3">
                       <Phone className="h-5 w-5 text-accent" />
                       <div>
-                        <p className="font-medium">{t('contact.phone')}</p>
+                        <p className="font-medium">{t('contact.phone')}</p> 
+                        
                         <a href="tel:+4521636222" className="text-accent hover:underline">
                           21 63 62 22
                         </a>
@@ -118,87 +79,33 @@ const Contact = () => {
 
                 {/* Google Maps */}
                 <Card>
-                  <CardContent className="p-0">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4498.246913578024!2d12.5563!3d55.6981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f21!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQxJzUzLjIiTiAxMsKwMzMnMjIuNyJF!5e0!3m2!1sda!2sdk!4v1234567890123!5m2!1sda!2sdk"
-                      width="100%"
-                      height="500"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      title={t('contact_form.iframe_title')}
-                      className="rounded-lg"
-                    ></iframe>
-                  </CardContent>
-                </Card>
-              </div>
+  <CardContent className="p-4 space-y-3">
+    <div>
+      <a
+        href="https://www.google.dk/maps/place/Psykologerne+ved+N%C3%B8rrebro+station/@55.702125,12.5351457,17z/data=!3m1!4b1!4m6!3m5!1s0x4652524be0de8ee9:0xb16b21c987690d55!8m2!3d55.702122!4d12.537726!16s%2Fg%2F11hzv53csf?hl=en&entry=ttu&g_ep=EgoyMDI1MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm underline hover:text-primary"
+      >
+        Open in Google Maps
+      </a>
+    </div>
 
-              {/* Contact Form */}
-              <div className="fade-in">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>{t('contact_form.title')}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <form onSubmit={handleSubmit} className="space-y-6">
-                      <div>
-                        <Label htmlFor="name">{t('contact.form.name')} *</Label>
-                        <Input
-                          id="name"
-                          name="name"
-                          type="text"
-                          required
-                          value={formData.name}
-                          onChange={handleInputChange}
-                          className="mt-1"
-                        />
-                      </div>
-                      
-                      <div>
-                        <Label htmlFor="phone">{t('contact.form.phone')} *</Label>
-                        <Input
-                          id="phone"
-                          name="phone"
-                          type="tel"
-                          required
-                          value={formData.phone}
-                          onChange={handleInputChange}
-                          className="mt-1"
-                        />
-                      </div>
-                      
-                      <div>
-                        <Label htmlFor="email">{t('contact.form.email')} *</Label>
-                        <Input
-                          id="email"
-                          name="email"
-                          type="email"
-                          required
-                          value={formData.email}
-                          onChange={handleInputChange}
-                          className="mt-1"
-                        />
-                      </div>
-                      
-                      <div>
-                        <Label htmlFor="message">{t('contact.form.message')}</Label>
-                        <Textarea
-                          id="message"
-                          name="message"
-                          rows={5}
-                          value={formData.message}
-                          onChange={handleInputChange}
-                          className="mt-1"
-                        />
-                      </div>
-                      
-                      <Button type="submit" className="w-full">
-                        {t('contact.form.submit')}
-                      </Button>
-                    </form>
-                  </CardContent>
-                </Card>
+    {/* embed by coordinates + output=embed ensures correct position */}
+    <iframe
+      src="https://www.google.com/maps?q=55.702122,12.537726&z=17&hl=da&output=embed"
+      width="100%"
+      height="400"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Psykologerne ved Nørrebro station — Mentis Balance"
+      className="rounded-lg"
+    ></iframe>
+  </CardContent>
+</Card>
+
               </div>
             </div>
           </div>

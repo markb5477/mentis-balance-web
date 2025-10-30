@@ -45,9 +45,9 @@ const Index = () => {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="bg-white text-primary border-white hover:bg-white/90 hover:text-primary">
-                <Link to={getLocalizedPath('contact')}>
+                <a href="https://system.easypractice.net/book/mentis-balance#choose-service" target="_blank" rel="noopener noreferrer">
                   {t('home.cta_booking')}
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
