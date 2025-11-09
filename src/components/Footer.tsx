@@ -11,6 +11,7 @@ const Footer = () => {
       home: { da: '/', en: '/', es: '/', pt: '/' },
       profile: { da: '/profil', en: '/profile', es: '/perfil', pt: '/perfil' },
       treatment: { da: '/behandling', en: '/treatment', es: '/tratamiento', pt: '/tratamento' },
+      online_therapy: { da: '/online-terapi', en: '/online-therapy', es: '/terapia-online', pt: '/terapia-online' },
       prices: { da: '/priser', en: '/prices', es: '/precios', pt: '/precos' },
       practical: { da: '/praktisk', en: '/practical', es: '/practico', pt: '/pratico' },
       contact: { da: '/kontakt', en: '/contact', es: '/contacto', pt: '/contato' },
@@ -70,6 +71,9 @@ const Footer = () => {
               </Link>
               <Link to={getLocalizedPath('treatment')} className="hover:text-accent transition-colors">
                 {t('navigation.treatment')}
+              </Link>
+              <Link to={getLocalizedPath('online_therapy')} className="hover:text-accent transition-colors">
+                {t('navigation.online_therapy')}
               </Link>
               <Link to={getLocalizedPath('prices')} className="hover:text-accent transition-colors">
                 {t('navigation.prices')}

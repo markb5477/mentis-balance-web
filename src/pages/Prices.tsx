@@ -14,6 +14,8 @@ const Prices = () => {
     { service: t('prices.self_therapy'), price50: formatPrice(PRICING.SELF_THERAPY_50MIN), price90: PRICING.SELF_THERAPY_90MIN },
     { service: t('prices.ptsd_treatment'), price50: PRICING.PTSD_TREATMENT_50MIN, price90: formatPrice(PRICING.PTSD_TREATMENT_90MIN) },
     { service: t('prices.family_sessions'), price50: formatPrice(PRICING.FAMILY_SESSIONS_50MIN), price90: formatPriceWithText(PRICING.FAMILY_SESSIONS_90MIN, t('prices_table.family_2_persons')) },
+    { service: t('prices.online_therapy'), price50: formatPrice(PRICING.ONLINE_THERAPY_50MIN), price90: PRICING.ONLINE_THERAPY_90MIN },
+    { service: t('prices.online_supervision'), price50: formatPrice(PRICING.ONLINE_SUPERVISION_50MIN), price90: PRICING.ONLINE_SUPERVISION_90MIN },
   ];
 
   const sessionCards = [
@@ -52,6 +54,14 @@ const Prices = () => {
               <AlertCircle className="h-4 w-4" />
               <AlertDescription className="text-base">
                 {t('prices.note')}
+              </AlertDescription>
+            </Alert>
+
+            {/* Insurance Notice */}
+            <Alert className="mb-12 fade-in">
+              <AlertCircle className="h-4 w-4" />
+              <AlertDescription className="text-base">
+                {t('prices.insurance_note')}
               </AlertDescription>
             </Alert>
 

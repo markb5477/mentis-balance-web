@@ -27,6 +27,14 @@ export const PRICING = {
   FAMILY_SESSIONS_50MIN: '1.200',
   FAMILY_SESSIONS_90MIN: '1.800',
   
+  // Online therapy
+  ONLINE_THERAPY_50MIN: '1.200',
+  ONLINE_THERAPY_90MIN: '',
+  
+  // Online supervision
+  ONLINE_SUPERVISION_50MIN: '1.200',
+  ONLINE_SUPERVISION_90MIN: '',
+  
   // Session cards (therapy packages)
   SESSION_CARD_3X: '3.000',
   SESSION_CARD_5X: '5.000',

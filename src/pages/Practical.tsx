@@ -84,20 +84,7 @@ const Practical = () => {
                     <div className="border-t pt-6">
                       <h4 className="font-semibold mb-3">{t('practical.payment_method')}</h4>
                       <p className="mb-4">{t('practical.payment_method_text')}</p>
-                      
-                      <div className="space-y-4">
-                        <div>
-                          <h5 className="font-semibold mb-2">{t('practical.payment_private_title')}</h5>
-                          <p className="mb-2">{t('practical.payment_private_text')}</p>
-                          <p className="text-sm text-muted-foreground mb-2">{t('practical.payment_private_note')}</p>
-                          <p className="font-mono text-sm">{t('practical.payment_private_mobilepay')}</p>
-                        </div>
-                        
-                        <div>
-                          <h5 className="font-semibold mb-2">{t('practical.payment_company_title')}</h5>
-                          <p className="font-mono text-sm">{t('practical.payment_company_bank')}</p>
-                        </div>
-                      </div>
+                      <p>{t('practical.payment_method_insurance')}</p>
                     </div>
                   </div>
                 </CardContent>

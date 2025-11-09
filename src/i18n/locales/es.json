@@ -4,6 +4,7 @@
     "home": "Inicio",
     "profile": "Perfil",
     "treatment": "Tratamiento",
+    "online_therapy": "Terapia Online",
     "prices": "Precios",
     "practical": "Práctico",
     "contact": "Contacto"
@@ -33,6 +34,10 @@
     "title": "Perfil",
     "bio": "Me llamo Tania Brandt, estoy en mis cincuenta, estoy casada y tengo dos hijos. Ofrezco tratamiento psicologico a adultos. Me he especializado en la Terapi conductiva. Ofrezco tambien supervisión a psicólogos que quieren conseguir su autoirsación.\n\n Soy psicologa clnica y ocupacional. Estoy autorizada por la Asociación danesa de psicólogos y tengo más de 20 años de experiencia. A finales del año 2025 seré especialista en terapia par adultos. Participo en cursos y recibo supervisión continuamente de mi trabajo \n\n Me especializado en evaluación, diagnóstico, tratamiento y prevención de riegos de problemas de salud mental y conductas desadaptativas que pueden afectar en el campo de trabajo debido a enfremedades psicológicas. Tengo experiencia en el tratamiento de problemas psicológicas en el campo laboral porque he trabajado en empresas privadas ayudando a personas de baja por enfermedad que se han reincorporado al trabajo.\n\n <strong>Bienvenido a tu espacio para mejorar tu bienestar emocional.</strong>\n\n Para mi el proceso terapéutico empieza con la colaboración mutua basada en la confianza, el respeto, la empatía y la apertura que es importante para la reflexión de los problemas que tu afrontas en tu vida y tu bienestar psicológico \n\n Para mí es también importante conocer y comprender tus necesidades que estás atravezando en tu vida. En terapia utilizaremos elementos terapeuticos de reflexión específicos a tu necesidad. Quizas necesitas comprenderte mejor, de dónde proviene tu vulnerabilidad, cómo encuentras la paz y cómo te acercas a la vida que quieres. \n\n Tengo experiencia en el sistema público por lo que podré asesorarte sobre tu problema independientemente de que tu necesites de mi ayuda o si requieres de un equipo interdiciplinario en el sector hospitalario.\n\n Espero poder ayudarte. !Bienvenido!"
   },
+  "online_therapy": {
+    "title": "Terapia Online",
+    "content": "También ofrezco terapia online, que también se conoce como terapia remota o e-terapia.\n\nPuedes recibir ayuda profesional en entornos seguros, independientemente de dónde te encuentres. Hay muchos beneficios como:\n\n• Tienes acceso a ayuda psicológica especializada sin limitaciones geográficas.\n\n• Programas sesiones que se adaptan a tu vida diaria.\n\n• Recibes terapia en tus propios entornos seguros.\n\n• Evitas el transporte y el tiempo perdido asociado con viajar a mi clínica.\n\n• Evitas tomar tiempo libre del trabajo.\n\nTodas las sesiones online se realizan a través de una conexión de video segura y cifrada según GDPR.\n\nEl proceso de terapia online se adapta a ti. Está estructurado y dirigido con un enfoque en darte las herramientas necesarias para manejar tus desafíos.\n\nEspero apoyarte hacia un mejor bienestar mental."
+  },
   "treatment": {
     "title": "Tratamiento",
     "introduction": "He estudiado 2 años terapia Cognitivo Conductual. Ademas tengo experiencia con terapias Dialéctica-conductual y Exposición prolongada. Tengo cursos en la terapia centrada en la Compasión, terapia de Aceptación y compromiso, terapia Metacognitiva y terapia centrada en soluciones.\n\n En los últimos años he trabajado en psiquiatria con adultos. Aqui he adquirido amplios conocimientos sobre evaluación diagnóstica y medicina. Actualmente sigo trabajando en una clinica psiquiátrica ambulatoria en un hospital.\n\n He ayudado a muchos adultos con formas graves de ansiedad, TOC (Trastorno Obsesivo-Compulsivo), tricotilomaniá, trastornos dismórfico corporal (TDC), depresión, estrés, trastornos de personalidad, trauma, autolesiones, sindrome de Asperger y TDAH (Trastorno de deficit de atención con hiperactividad).\n\n He trabajado con personas que sufren de adicciones de drogas, al juego, al alcohol y al sexo y los procesos que desencadenan el abuso. También he trabajado con familiares de adictos y a travéz de terapia han logrado ayudarse a si mismos y a sus seres queridos. \n\nEn mi práctica clínica ofrezco mi experiencia dentro de la terapia cognivo conductual con personas adultas con trastornos de personalidad, trauma, autolesiones, abuso de drogas, ansiedad, depresión, estrés, síndrome de Asperger y TDAH.\n\n Dentro del campo laboral trabajo con problemas de colaboración, falta de compatibilidad entre las habilidades del trabajador y tareas de trabajo, el acoso laboral de forma continuada e injustificada contra un trabajador como por ejemplo violencia psicológica, física o sexual. Tambien trabajo con problemas de reacciones de crisis og estrés cuyas causas pueden ser divorcios, enfermedades familiares crónicas, consumo de drogas y adicción. Tambien ofrezco terapia en casos de accidentes súbitos, violencia y amenazas.\n\n Las consultas psicológicas se basarán principalmente en los últimos avances psicológicos de la terapi cognitivo conductual. El tratamiento psicológico es personalizado y se adapta a tus necesidades, objetivos y deseos individuales. Evaluamos continuamente el proceso para garantizar que tú realmente te beneficies de la terapia."  ,
@@ -56,14 +61,17 @@
     ]
   },
   "prices": {
-    "subtitle": "Precios y condiciones",
+    "subtitle": "Precios",
     "note": "NOTA: No estoy afiliada al seguro social de salud \"gult sundhedskort\" y por lo tanto no puedes usar la referencia de tu médico de cabecera para adquirir un tratamiento psicologico. ",
+    "insurance_note": "Tenga en cuenta que a menudo puede obtener subsidios o cobertura completa para su tratamiento si tiene seguro de salud.",
     "individual_therapy": "Terapia individual",
     "supervision": "Supervisión de psicólogos en camino a la autorización",
     "group_supervision": "Supervisión grupal para 2 personas: 1.500 kr./hora\nSupervisión grupal para 3-5 personas: 1.600 kr./hora\nSupervisión grupal para 6 personas o más: 2.000 kr./hora",
     "self_therapy": "Autoterapia para psicólogos (para cursos más largos, contacta para precio)",
     "ptsd_treatment": "Tratamiento de TEPT",
     "family_sessions": "Consultas familiares",
+    "online_therapy": "Terapia online, cifrada.",
+    "online_supervision": "Supervisión online, cifrada.",
     "session_cards": "Tarjetas de sesión",
     "session_cards_text": "Compra tarjetas de sesión de terapia y logra ahorros significativos. Ofrezco varias opciones.",
     "student_discount": "Ofrezco descuentos a estudiantes y desempleados - debes mostrar documentación:",
@@ -80,7 +88,7 @@
     "conditions": "Condiciones",
     "condition_1": "Soy psicóloga autorizada y miembro de la Asociación Danesa de Psicología.",
     "condition_2": "Puedes realizar las sesiones en danés, inglés, español o portugués.",
-    "condition_3": "También ofrezco consultas telefónicas, pero recomiendo que la primera sesión sea en persona. Es posible elegir una sesión telefónica a la misma tarifa.",
+    "condition_3": "También ofrezco consultas telefónicas y sesiones online, pero recomiendo que la primera sesión sea en persona. Es posible elegir una sesión telefónica/video a la misma tarifa.",
     "confidentiality": "Confidencialidad",
     "confidentiality_text": "Como psicóloga trabajo dentro de la confidencialidad para psicólogos, que es un deber ético y legal de proteger tu información privada, que incluye todo lo que se habla en las sesiones, informes y expedientes. En casos extraordinarios, puedo verme obligada a romper mi confidencialidad si me entero de que tú estás en peligro para ti mismo o para otros. En casos donde obtengo información de que un niño está sufriendo, en esta situación tengo, como todos los demás, el deber de reportar a las autoridades. Siempre hablaré contigo sobre la confidencialidad si considero que vamos a romper nuestro espacio confidencial antes de hablar con otros.",
     "cancellation": "Reglas de cancelación",
@@ -91,7 +99,8 @@
     "payment_text_2": "Sygeforsikring Danmark proporciona subsidios para el tratamiento de varios trastornos mentales por psicólogos autorizados para miembros en los grupos 1, 2 y 5. Lee las condiciones <a href=\"https://www.sygeforsikring.dk/tilskud/psykologhjaelp\" target=\"_blank\" rel=\"noopener noreferrer\">aquí</a>",
     "payment_text_3": "Si tienes seguro de salud o plan de salud a través de tu compañía de seguros o trabajo, puedes contactarlos para saber si cubrirán la ayuda psicológica. Obtén ayuda para entender las condiciones <a href=\"https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/\" target=\"_blank\" rel=\"noopener noreferrer\">aquí</a>",
     "payment_method": "Pago",
-    "payment_method_text": "El pago se hace con MobilePay/efectivo antes de cada consulta. No recibo tarjetas de crédito.",
+    "payment_method_text": "El pago se hace con MobilePay o efectivo con recibo después de cada consulta. No acepto tarjetas de crédito.",
+    "payment_method_insurance": "Si tienes una autorización de tu seguro de salud, me aseguraré de enviar la factura a ellos si el seguro cubre el monto completo. Si tu seguro no cubre el monto completo, debes pagar por adelantado y encargarte de obtener el reembolso de tu seguro tú mismo.",
     "payment_private_title": "Personas privadas:",
     "payment_private_text": "El pago debe hacerse por adelantado - efectivo / vía mobilepay antes de cada sesión. No acepto tarjetas de crédito.",
     "payment_private_note": "Nota: No puedes usar una referencia de tu médico conmigo, ya que no tengo un acuerdo con el seguro de salud.",

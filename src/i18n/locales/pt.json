@@ -4,6 +4,7 @@
     "home": "Início",
     "profile": "Perfil",
     "treatment": "Tratamento",
+    "online_therapy": "Terapia Online",
     "prices": "Preços",
     "practical": "Prático",
     "contact": "Contato"
@@ -33,6 +34,10 @@
     "title": "Perfil",
     "bio": "Meu nome é Tania Brandt, tenho 50 anos, sou casada e tenho dois filhos. Ofereço tratamento psicológico para adultos. Especializei-me em Terapia Cognitiva. Também ofereço supervisão para psicólogos que querem obter sua autorização.\n\n Sou psicóloga clínica e ocupacional. Sou autorizada pela Associação Dinamarquesa de Psicólogos e tenho mais de 20 anos de experiência. No final de 2025 serei especialista em terapia para adultos. Participo de cursos e recebo supervisão contínua no meu trabalho.\n\n Especializo-me em avaliação, diagnóstico, tratamento e prevenção de riscos de problemas de saúde mental e comportamentos desadaptativos que podem afetar o local de trabalho devido a distúrbios psicológicos. Tenho experiência no tratamento de problemas psicológicos no local de trabalho porque trabalhei em empresas privadas ajudando pessoas em licença médica que retornaram ao trabalho.\n\n <strong>Bem-vindo ao seu espaço para melhorar seu bem-estar emocional.</strong>\n\n Para mim, o processo terapêutico começa com a colaboração mútua baseada na confiança, respeito, empatia e abertura que é importante para refletir sobre os problemas que você enfrenta em sua vida e seu bem-estar psicológico.\n\n Também é importante para mim conhecer e compreender suas necessidades que você está passando em sua vida. Na terapia utilizaremos elementos de reflexão terapêutica específicos para suas necessidades. Talvez você precise se entender melhor, de onde vem sua vulnerabilidade, como encontra paz e como se aproxima da vida que deseja.\n\n Tenho experiência no sistema público, então posso aconselhá-lo sobre seu problema independentemente de você precisar da minha ajuda ou se precisar de uma equipe interdisciplinar no setor hospitalar.\n\n Espero poder ajudá-lo. Bem-vindo!"
   },
+  "online_therapy": {
+    "title": "Terapia Online",
+    "content": "Também ofereço terapia online, que também é conhecida como terapia remota ou e-terapia.\n\nVocê pode receber ajuda profissional em ambientes seguros, independentemente de onde esteja. Há muitos benefícios, como:\n\n• Você tem acesso a ajuda psicológica especializada sem limitações geográficas.\n\n• Você agenda sessões que se encaixam na sua vida diária.\n\n• Você recebe terapia em seus próprios ambientes seguros.\n\n• Você evita transporte e tempo perdido associado a viajar para minha clínica.\n\n• Você evita tirar folga do trabalho.\n\nTodas as sessões online ocorrem por meio de uma conexão de vídeo segura e criptografada conforme GDPR.\n\nO processo de terapia online é adaptado a você. É estruturado e direcionado com foco em fornecer as ferramentas necessárias para lidar com seus desafios.\n\nEspero apoiá-lo em direção a um melhor bem-estar mental."
+  },
   "treatment": {
     "title": "Tratamento",
     "introduction": "Tenho uma educação de 2 anos em Terapia Cognitivo Comportamental (Tratamento de estresse, ansiedade, depressão, abuso de substâncias, etc.)\n\nAlém disso, sou formada em Terapia Comportamental Dialética (gerenciamento e regulação de emoções) e em Exposição Prolongada (tratamento de trauma).\n\nTambém completei vários cursos complementares em Terapia Focada na Compaixão, Terapia Metacognitiva, Terapia Focada em Soluções, entre outras modalidades.\n\nNos últimos anos, trabalhei na área de psiquiatria de adultos, adquirindo experiência em avaliação diagnóstica. Atualmente, continuo trabalhando em uma clínica ambulatorial psiquiátrica.\n\nAs sessões psicológicas que ofereço são baseadas nas estratégias mais atuais da Terapia Cognitivo Comportamental. O tratamento é personalizado e adaptado às suas necessidades, objetivos e desejos individuais.\n\nUtilizo diferentes abordagens terapêuticas dependendo do que é mais relevante e significativo para você, e avaliamos continuamente o processo para garantir que você realmente se beneficie da terapia.",
@@ -56,14 +61,17 @@
     ]
   },
   "prices": {
-    "subtitle": "Preços e condições",
+    "subtitle": "Preços",
     "note": "NOTA: Não estou afiliada ao seguro de saúde e, portanto, você não pode usar um encaminhamento do seu próprio médico. Uma sessão dura 50 minutos.",
+    "insurance_note": "Por favor, note que você frequentemente pode obter subsídios ou cobertura total para seu tratamento se tiver seguro de saúde.",
     "individual_therapy": "Terapia individual",
     "supervision": "Supervisão de psicólogos a caminho da autorização",
     "group_supervision": "Supervisão em grupo para 2 pessoas: 1.500 kr./hora\nSupervisão em grupo para 3-5 pessoas: 1.600 kr./hora\nSupervisão em grupo para 6 pessoas ou mais: 2.000 kr./hora",
     "self_therapy": "Autoterapia para psicólogos (para cursos mais longos, entre em contato para preço)",
     "ptsd_treatment": "Tratamento de TEPT",
     "family_sessions": "Consultas familiares",
+    "online_therapy": "Terapia online, criptografada.",
+    "online_supervision": "Supervisão online, criptografada.",
     "session_cards": "Cartões de sessão",
     "session_cards_text": "Compre cartões de sessão de terapia e obtenha economias significativas. Ofereço várias opções.",
     "student_discount": "Ofereço descontos para estudantes e desempregados - documentação deve ser mostrada:",
@@ -80,7 +88,7 @@
     "conditions": "Condições",
     "condition_1": "Sou psicóloga autorizada e membro da Associação Dinamarquesa de Psicologia.",
     "condition_2": "Você pode ter as sessões em dinamarquês, inglês, espanhol ou português.",
-    "condition_3": "Também ofereço consultas por telefone, mas recomendo que a primeira sessão seja presencial. Você pode escolher uma sessão por telefone pela mesma taxa.",
+    "condition_3": "Também ofereço consultas por telefone e sessões online, mas recomendo que a primeira sessão seja presencial. Você pode escolher uma sessão por telefone/vídeo pela mesma taxa.",
     "confidentiality": "Confidencialidade",
     "confidentiality_text": "Estou obrigada pela confidencialidade para psicólogos, que me esforço muito para manter. Em casos extraordinários, posso ser forçada a quebrar minha confidencialidade se souber que você está em perigo para si mesmo ou para outros. Em casos onde obtenho conhecimento ou tenho forte suspeita de que uma criança está sofrendo ou sobrecarregada, tenho, como todos os outros, o dever de relatar. Sempre falarei com você sobre isso se considerar quebrar nosso espaço confidencial antes de falar com outros.",
     "cancellation": "Regras de cancelamento",
@@ -91,7 +99,8 @@
     "payment_text_2": "Sygeforsikring Danmark fornece subsídios para tratamento de vários transtornos mentais por psicólogos autorizados para membros nos grupos 1, 2 e 5. Leia as condições <a href=\"https://www.sygeforsikring.dk/tilskud/psykologhjaelp\" target=\"_blank\" rel=\"noopener noreferrer\">aqui</a>",
     "payment_text_3": "Se você tem seguro de saúde ou plano de saúde através da sua companhia de seguros ou trabalho, pode contactá-los para saber se eles cobrirão ajuda psicológica. Obtenha ajuda para entender as condições <a href=\"https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/\" target=\"_blank\" rel=\"noopener noreferrer\">aqui</a>",
     "payment_method": "Pagamento",
-    "payment_method_text": "O pagamento é feito com MobilePay ou dinheiro com recibo após cada consulta.",
+    "payment_method_text": "O pagamento é feito com MobilePay ou dinheiro com recibo após cada consulta. Não aceito cartões de crédito.",
+    "payment_method_insurance": "Se você tiver uma autorização do seu seguro de saúde, eu me certificarei de enviar a fatura para eles se o seguro cobrir o valor total. Se o seu seguro não cobrir o valor total, você deve pagar antecipadamente e se encarregar de obter o reembolso do seu seguro você mesmo.",
     "payment_private_title": "Pessoas privadas:",
     "payment_private_text": "O pagamento deve ser feito antecipadamente - dinheiro / via mobilepay antes de cada sessão. Não aceito cartões de crédito.",
     "payment_private_note": "Nota: Você não pode usar um encaminhamento do seu médico comigo, pois não tenho um acordo com o seguro de saúde.",

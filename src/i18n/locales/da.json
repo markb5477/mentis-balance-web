@@ -3,6 +3,7 @@
     "home": "Hjem",
     "profile": "Profil",
     "treatment": "Behandling",
+    "online_therapy": "Online Terapi",
     "prices": "Priser",
     "practical": "Praktisk",
     "contact": "Kontakt"
@@ -33,6 +34,10 @@
     "bio": "Jeg hedder Tania Brandt, er i 50erne, er gift og har to børn. Jeg behandler voksne og har specialiseret mig i Kognitiv Terapi. Jeg tilbyder supervision af psykologer på vej til autorisation.\n\n Jeg er både uddannet klinisk og erhvervspsykolog. Jeg er autoriseret af Psykolognævnet og har mere end 20 års erfaring. Senere på året 2025 forventer jeg at blive Specialist i Psykoterapi med voksne. Jeg deltager løbende i kurser og modtager løbende supervision på mit arbejde. \n\n Jeg er specialiseret i helhedsorienteret og forebyggende psykologiske indsatser målrettet mennesker, der oplever nedsat trivsel, er sygemeldte grundet psykiske udfordringer – eller i risiko for at blive det. Jeg har gode erfaringer fra min tid i de private virksomheder, hvor jeg bidrog med gode resultater i forhold til at hjælpe sygemeldte at genoptage arbejdet.\n\n <strong>Velkommen til dit trygge rum</strong>\n\n Udgangspunktet, for et terapeutisk forløb med mig, er et samarbejde, som vi skaber gennem en tryg alliance baseret på tillid, respekt, empati, omsorg og åbenhed. Det trygge rum, der opstår heraf, er altafgørende for din psykologiske helingsproces.\n\n Det er vigtigt for mig at møde dig og dine behov lige nu, hvor du befinder dig i dit liv. I terapien trækker jeg på elementer fra terapiretninger, der dækker dine behov bedst muligt. Måske har du et behov for bedre at forstå dig selv: hvor stammer din sårbarhed fra, hvordan finder du ro og hvordan kommer tættere på det liv, som du ønsker.\n\n Jeg har tillige betydelig erfaring med det offentlige behandlingssystem, derfor vil jeg være i stand til at rådgive dig i forhold til din problemstilling — uanset om du skal have hjælp fra mig eller hvorvidt der er behov for en tværfaglig indsats for at hjælpe dig bedst muligt.\n\n Jeg glæder mig til at møde dig. Du er velkommen!"
     
   },
+  "online_therapy": {
+    "title": "Online Terapi",
+    "content": "Jeg tilbyder også online terapi, som er også kendt som fjernterapi eller e-terapi.\n\nDu kan modtage professionel hjælp i trygge rammer, uanset hvor du befinder dig. Der er mange fordele såsom:\n\n• Du får adgang til specialiseret psykologhjælp uden geografiske begrænsninger.\n\n• Du planlægger sessioner, der passer ind i din hverdag.\n\n• Du modtager terapi i dine egne trygge omgivelser.\n\n• Du undgår transport og spildtid forbundet med transport til min klinik.\n\n• Du undgår at tage fri fra arbejdet.\n\nAlle online samtaler foregår over en GDPR-sikret og krypteret videoforbindelse.\n\nOnline terapiforløbet tilpasses dig. Det er struktureret og målrettet med fokus på at give dig de nødvendige redskaber til at håndtere dine udfordringer.\n\nJeg ser frem til at støtte dig henimod bedre mental trivsel."
+  },
   "treatment": {
     "title": "Behandling",
     "introduction": "Jeg har en 2-årig efteruddannelse inden for Kognitiv adfærdsterapi. Derudover har jeg flere efteruddannelser blandt andet inden for Dialektisk adfærdsterapi, og i Prolonged exposure. Dertil har jeg flere kurser inden for Compassion fokuseret terapi, Acceptance and commitment terapi, Metakognitiv terapi og Løsningsfokuseret terapi.\n\n De seneste år har jeg været ansat i voksenpsykiatrien. Jeg har her fået en stor viden om diagnostisk udredning og medicin. I øjeblikket fortsætter jeg med at arbejde på et psykiatrisk ambulatorium.\n\n Jeg har hjulpet mange voksne med svære former for angst, OCD, trikotilomani, body dysmorphic disorder (BDD), depression, stress, personlighedsforstyrrelse, traumer, selvskade, Asperger og ADHD.\n\n Jeg har arbejdet med stof-, ludomani-, alkohol- og sexafhængighed, hvor jeg har et indgående kendskab til de processer et misbrug sætter i gang. Jeg arbejdede  også med pårørende til misbrugere og hvordan du som pårørende bedst kan hjælpe dig selv og dem du holder af.\n\n I det kliniske arbejde har jeg ekspertviden inden for kognitiv terapi med personer med personlighedsforstyrrelser, traumer, selvskade, misbrug, angst, depression, stress, Asperger og ADHD. \n\n Jeg bearbejder arbejdsrelaterede udfordringer såsom samarbejdsproblemer, dårligt match mellem kompetencer og arbejdsopgaver, mobning m.m. Jeg påtager mig opgaver med belastningsreaktion og kriser - årsager kan være skilsmisse, sygdom i familien og misbrug. Ligesom akutte hændelser såsom ulykker, vold eller trusler. \n\n Psykologsamtalerne vil tage udgangspunkt i de nyeste retninger inden for kognitiv adfærdsterapi. Behandlingen er personaliseret og tilpasset til dine individuelle behov, mål og ønsker. Vi evaluerer løbende processen for at sikre, at du virkelig drager fordel af terapi.",
@@ -56,14 +61,17 @@
     ]
   },
   "prices": {
-    "subtitle": "Priser og vilkår",
+    "subtitle": "Priser",
     "note": "OBS. Jeg er ikke tilknyttet sygesikringen og du kan derfor ikke bruge en henvisning fra din egen læge. En session varer 50 minutter.",
+    "insurance_note": "Vær OBS på, at du ofte kan få tilskud eller fuld dækning for din behandling, hvis du har sundhedssikring.",
     "individual_therapy": "Individuel terapi",
     "supervision": "Supervision af psykologer på vej mod autorisation",
     "group_supervision": "Gruppesupervision for 2 personer: 1.500 kr./time\nGruppesupervision for 3-5 personer: 1.600 kr./time\nGruppesupervision for 6 personer eller flere: 2.000 kr./time",
     "self_therapy": "Egenterapi for psykologer (ved et længere forløb, kontakt for pris)",
     "ptsd_treatment": "PTSD-behandling",
     "family_sessions": "Pårørendesamtaler",
+    "online_therapy": "Online terapi, krypteret.",
+    "online_supervision": "Online supervision, krypteret.",
     "session_cards": "Klippekort",
     "session_cards_text": "Køb terapi klippekort og opnå en stor besparelse. Jeg tilbyder forskellige muligheder.",
     "student_discount": "Jeg giver rabat til studerende og ledige – dokumentation herfor skal forevises:",
@@ -80,7 +88,7 @@
     "conditions": "Vilkår",
     "condition_1": "Jeg er autoriseret psykolog og medlem af Dansk Psykolog Forening.",
     "condition_2": "Samtalerne kan foregå på dansk, engelsk, spansk eller portugisisk.",
-    "condition_3": "Jeg tilbyder også telefonkonsultationer, men anbefaler at første samtale er med fysisk fremmøde. Det er muligt at vælge samtale over telefon til samme takst.",
+    "condition_3": "Jeg tilbyder også telefonkonsultationer og online samtaler, men anbefaler at første samtale er med fysisk fremmøde. Det er muligt at vælge samtale over telefon/video til samme takst.",
     "confidentiality": "Tavshedspligt",
     "confidentiality_text": "Som psykolog er jeg omfattet af etiske retningslinjer og overholder naturligvis tavshedspligten for at beskytte dine rettigheder, fremme tillid og sikre velbefindende. Jeg kan i ekstraordinære tilfælde være nødsaget til at bryde min tavshedspligt, hvis jeg erfarer, at du er til fare for enten dig selv eller andre. I tilfælde hvor jeg få viden om eller får kraftig mistanke om, at et barn lider eller er overbelastet, så har jeg, ligesom alle andre, underretningspligt. Jeg vil altid tale med dig om det, hvis jeg påtænker at bryde vores fortrolige rum, før jeg taler med andre.",
     "cancellation": "Afbudsregler",
@@ -91,7 +99,8 @@
     "payment_text_2": "Sygeforsikring Danmark giver tilskud til behandling af en række forskellige psykiske lidelser hos autoriseret psykolog for medlemmer i gruppe 1, 2 og 5. Læs betingelserne <a href=\"https://www.sygeforsikring.dk/tilskud/psykologhjaelp\" target=\"_blank\" rel=\"noopener noreferrer\">her</a>",
     "payment_text_3": "Har du en sundhedsforsikring eller sundhedsordning gennem dit forsikringsselskab eller arbejde, kan du kontakte dem for at høre, om de vil dække psykologhjælp. Få hjælp til at få styr på betingelserne <a href=\"https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/\" target=\"_blank\" rel=\"noopener noreferrer\">her</a>",
     "payment_method": "Betaling",
-    "payment_method_text": "Der betales med MobilePay eller kontant mod kvittering efter hver konsultation.",
+    "payment_method_text": "Der betales med MobilePay eller kontant mod kvittering efter hver konsultation. Jeg modtager ikke dankort.",
+    "payment_method_insurance": "Hvis du har en bevilling fra din sundhedsforsikring, sørger jeg for at sende fakturaen til dem, hvis forsikringen dækker det fulde beløb. Dækker din forsikring ikke det fulde beløb, skal du lægge ud og selv sørge for at få refusion fra din forsikring.",
     "payment_private_title": "Private personer:",
     "payment_private_text": "Betaling skal ske ved forudbetaling - kontant / via mobilpay før hver samtale. Jeg modtager ikke dankort.",
     "payment_private_note": "Bemærk: Du kan ikke bruge en henvisning fra din læge hos mig, da jeg ikke har overenskomst med sygesikringen.",

@@ -8,6 +8,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Profile from "./pages/Profile";
 import Treatment from "./pages/Treatment";
+import OnlineTherapy from "./pages/OnlineTherapy";
 import Prices from "./pages/Prices";
 import Practical from "./pages/Practical";
 import Contact from "./pages/Contact";
@@ -33,6 +34,9 @@ const App = () => (
           <Route path="/treatment" element={<Treatment />} />
           <Route path="/tratamiento" element={<Treatment />} />
           <Route path="/tratamento" element={<Treatment />} />
+          <Route path="/online-terapi" element={<OnlineTherapy />} />
+          <Route path="/online-therapy" element={<OnlineTherapy />} />
+          <Route path="/terapia-online" element={<OnlineTherapy />} />
           <Route path="/priser" element={<Prices />} />
           <Route path="/prices" element={<Prices />} />
           <Route path="/precios" element={<Prices />} />

@@ -4,6 +4,7 @@
     "home": "Home",
     "profile": "Profile",
     "treatment": "Treatment",
+    "online_therapy": "Online Therapy",
     "prices": "Prices",
     "practical": "Practical",
     "contact": "Contact"
@@ -33,6 +34,10 @@
     "title": "Profile",
     "bio": "My name is Tania Brandt, I am in my 50s, married and have two children. I offer psychological treatment to adults. I have specialized in Cognitive Therapy. I also offer supervision to psychologists who want to obtain their authorization.\n\n I am both a clinical and occupational psychologist. I am authorized by the Danish Psychology Association and have more than 20 years of experience. At the end of 2025 I will be a specialist in therapy for adults. I participate in courses and receive continuous supervision in my work.\n\n I specialize in evaluation, diagnosis, treatment and prevention of risks of mental health problems and maladaptive behaviors that can affect the workplace due to psychological disorders. I have experience in treating psychological problems in the workplace because I have worked in private companies helping people on sick leave who have returned to work.\n\n <strong>Welcome to your space to improve your emotional well-being.</strong>\n\n For me, the therapeutic process begins with mutual collaboration based on trust, respect, empathy and openness that is important for reflecting on the problems you face in your life and your psychological well-being.\n\n It is also important for me to know and understand your needs that you are going through in your life. In therapy we will use therapeutic reflection elements specific to your needs. Perhaps you need to understand yourself better, where your vulnerability comes from, how you find peace and how you approach the life you want.\n\n I have experience in the public system so I can advise you about your problem regardless of whether you need my help or if you require an interdisciplinary team in the hospital sector.\n\n I hope I can help you. Welcome!"
   },
+  "online_therapy": {
+    "title": "Online Therapy",
+    "content": "I also offer online therapy, which is also known as remote therapy or e-therapy.\n\nYou can receive professional help in safe settings, regardless of where you are. There are many benefits such as:\n\n• You get access to specialized psychological help without geographical limitations.\n\n• You schedule sessions that fit into your daily life.\n\n• You receive therapy in your own safe surroundings.\n\n• You avoid transportation and wasted time associated with traveling to my clinic.\n\n• You avoid taking time off from work.\n\nAll online sessions take place over a GDPR-secured and encrypted video connection.\n\nThe online therapy process is tailored to you. It is structured and targeted with a focus on giving you the necessary tools to handle your challenges.\n\nI look forward to supporting you towards better mental well-being."
+  },
   "treatment": {
     "title": "Treatment",
     "introduction": "I have a 2-year education in Cognitive Behavioral Therapy (Treatment of stress, anxiety, depression, substance abuse, etc.)\n\nAdditionally, I am trained in Dialectical Behavioral Therapy (managing and regulating emotions) and in Prolonged Exposure (trauma treatment).\n\nI have also completed several complementary courses in Compassion Focused Therapy, Metacognitive Therapy, Solution Focused Therapy, among other modalities.\n\nIn recent years, I have worked in adult psychiatry, gaining experience in diagnostic assessment. Currently, I continue working in a psychiatric outpatient clinic.\n\nThe psychological sessions I offer are based on the most current strategies of Cognitive Behavioral Therapy. The treatment is personalized and adapted to your individual needs, goals and desires.\n\nI use different therapeutic approaches depending on what is most relevant and meaningful for you, and we continuously evaluate the process to ensure that you truly benefit from therapy.",
@@ -56,14 +61,17 @@
     ]
   },
   "prices": {
-    "subtitle": "Prices and conditions",
+    "subtitle": "Prices",
     "note": "NOTE: I am not affiliated with health insurance and therefore you cannot use a referral from your own doctor. A session lasts 50 minutes.",
+    "insurance_note": "Please note that you can often get subsidies or full coverage for your treatment if you have health insurance.",
     "individual_therapy": "Individual therapy",
     "supervision": "Supervision of psychologists on their way to authorization",
     "group_supervision": "Group supervision for 2 people: 1,500 kr./hour\nGroup supervision for 3-5 people: 1,600 kr./hour\nGroup supervision for 6 people or more: 2,000 kr./hour",
     "self_therapy": "Self-therapy for psychologists (for longer courses, contact for price)",
     "ptsd_treatment": "PTSD treatment",
     "family_sessions": "Family consultations",
+    "online_therapy": "Online therapy, encrypted.",
+    "online_supervision": "Online supervision, encrypted.",
     "session_cards": "Session cards",
     "session_cards_text": "Buy therapy session cards and achieve significant savings. I offer various options.",
     "student_discount": "I offer discounts to students and unemployed - documentation must be shown:",
@@ -80,7 +88,7 @@
     "conditions": "Conditions",
     "condition_1": "I am an authorized psychologist and member of the Danish Psychology Association.",
     "condition_2": "Sessions can be conducted in Danish, English, Spanish or Portuguese.",
-    "condition_3": "I also offer telephone consultations, but recommend that the first session is in person. It is possible to choose a telephone session at the same rate.",
+    "condition_3": "I also offer telephone consultations and online sessions, but recommend that the first session is in person. It is possible to choose a telephone/video session at the same rate.",
     "confidentiality": "Confidentiality",
     "confidentiality_text": "I am bound by confidentiality for psychologists, which I make a great effort to uphold. In extraordinary cases, I may be forced to break my confidentiality if I learn that you are in danger to either yourself or others. In cases where I gain knowledge or have strong suspicion that a child is suffering or overburdened, I have, like everyone else, a duty to report. I will always talk to you about it if I consider breaking our confidential space before I talk to others.",
     "cancellation": "Cancellation rules",
@@ -91,7 +99,8 @@
     "payment_text_2": "Sygeforsikring Danmark provides subsidies for treatment of various mental disorders by authorized psychologists for members in groups 1, 2 and 5. Read the conditions <a href=\"https://www.sygeforsikring.dk/tilskud/psykologhjaelp\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>",
     "payment_text_3": "If you have health insurance or health plan through your insurance company or work, you can contact them to hear if they will cover psychological help. Get help understanding the conditions <a href=\"https://www.dp.dk/fag-og-politik/fag/til-psykolog-gennem-din-sundhedsforsikring/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>",
     "payment_method": "Payment",
-    "payment_method_text": "Payment is made with MobilePay or cash with receipt after each consultation.",
+    "payment_method_text": "Payment is made with MobilePay or cash with receipt after each consultation. I do not accept credit cards.",
+    "payment_method_insurance": "If you have an authorization from your health insurance, I will ensure that the invoice is sent to them if the insurance covers the full amount. If your insurance does not cover the full amount, you must pay upfront and arrange for reimbursement from your insurance yourself.",
     "payment_private_title": "Private individuals:",
     "payment_private_text": "Payment must be made in advance - cash / via mobilepay before each session. I do not accept credit cards.",
     "payment_private_note": "Note: You cannot use a referral from your doctor with me, as I do not have an agreement with health insurance.",
