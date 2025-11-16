@@ -57,19 +57,32 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-4 xl:space-x-8">
             {navItems.map((item) => (
-              <Link
-                key={item.key}
-                to={item.path}
-                className={`font-medium transition-colors ${
-                  isActive(item.path)
-                    ? 'text-accent'
-                    : 'text-foreground hover:text-accent'
-                }`}
-              >
-                {item.label}
-              </Link>
+              item.key === 'booking' ? (
+                <Button
+                  key={item.key}
+                  asChild
+                  size="sm"
+                  className="bg-green-600 hover:bg-green-700 text-white font-heading font-medium !px-2 lg:!px-3 text-xs lg:text-sm whitespace-nowrap h-8 lg:h-9"
+                >
+                  <Link to={item.path}>
+                    {item.label}
+                  </Link>
+                </Button>
+              ) : (
+                <Link
+                  key={item.key}
+                  to={item.path}
+                  className={`font-medium transition-colors ${
+                    isActive(item.path)
+                      ? 'text-accent'
+                      : 'text-foreground hover:text-accent'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              )
             ))}
           </nav>
 
@@ -94,18 +107,31 @@ const Header = () => {
           <div className="lg:hidden mt-4 pt-4 border-t border-border">
             <nav className="flex flex-col space-y-4">
               {navItems.map((item) => (
-                <Link
-                  key={item.key}
-                  to={item.path}
-                  className={`font-medium transition-colors ${
-                    isActive(item.path)
-                      ? 'text-accent'
-                      : 'text-foreground hover:text-accent'
-                  }`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
+                item.key === 'booking' ? (
+                  <Button
+                    key={item.key}
+                    asChild
+                    size="sm"
+                    className="bg-green-600 hover:bg-green-700 text-white font-heading font-medium !px-3 !py-1.5 text-xs h-8 w-fit"
+                  >
+                    <Link to={item.path} onClick={() => setIsMenuOpen(false)}>
+                      {item.label}
+                    </Link>
+                  </Button>
+                ) : (
+                  <Link
+                    key={item.key}
+                    to={item.path}
+                    className={`font-medium transition-colors ${
+                      isActive(item.path)
+                        ? 'text-accent'
+                        : 'text-foreground hover:text-accent'
+                    }`}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )
               ))}
               <div className="pt-4">
                 <LanguageSwitcher />
