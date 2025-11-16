@@ -6,7 +6,8 @@
     "online_therapy": "Online Terapi",
     "prices": "Priser",
     "practical": "Praktisk",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "booking": "Book en tid"
   },
   "footer": {
     "copyright": "© 2025 Mentis Balance",
@@ -92,7 +93,7 @@
     "confidentiality": "Tavshedspligt",
     "confidentiality_text": "Som psykolog er jeg omfattet af etiske retningslinjer og overholder naturligvis tavshedspligten for at beskytte dine rettigheder, fremme tillid og sikre velbefindende. Jeg kan i ekstraordinære tilfælde være nødsaget til at bryde min tavshedspligt, hvis jeg erfarer, at du er til fare for enten dig selv eller andre. I tilfælde hvor jeg få viden om eller får kraftig mistanke om, at et barn lider eller er overbelastet, så har jeg, ligesom alle andre, underretningspligt. Jeg vil altid tale med dig om det, hvis jeg påtænker at bryde vores fortrolige rum, før jeg taler med andre.",
     "cancellation": "Afbudsregler",
-    "cancellation_text": "Afbud meldes 24 timer inden samtalens start – ellers skal du påregne et gebyr på {{cancellationFee}}. Afbud kan også ske ved telefonisk opringning, på en telefonsvarerbesked, på SMS eller via e-mail. En aftale med fysisk fremmøde kan altid konverteres til en telefonsamtale, hvis du eksempelvis oplever symptomer på sygdom og/eller ikke kan tage fysisk fremmøde. Der betales samme takst.",
+    "cancellation_text": "Afbud meldes 24 timer inden samtalens start – ellers skal du påregne et gebyr på {{cancellationFee}} Afbud kan også ske ved telefonisk opringning, på en telefonsvarerbesked, på SMS eller via e-mail. En aftale med fysisk fremmøde kan altid konverteres til en telefonsamtale, hvis du eksempelvis oplever symptomer på sygdom og/eller ikke kan tage fysisk fremmøde. Der betales samme takst.",
     "payment": "Afregning",
     "payment_title": "Tilskud og dækning",
     "payment_text_1": "Jeg har ikke ydrenummer og ikke overenskomst med sygesikringen. Derfor modtager jeg desværre ikke henvisninger fra egen læge. Se en liste over psykologer med ydernummer på psykologeridanmark.dk",
@@ -107,6 +108,12 @@
     "payment_private_mobilepay": "Mobilpay: xx",
     "payment_company_title": "Virksomheder:",
     "payment_company_bank": "Bankoverførsel: xx"
+  },
+  "booking": {
+    "title": "Book en tid",
+    "intro": "Book en tid hos mig ved at bruge booking systemet nedenfor. Du kan vælge den service, der passer dig bedst, og finde et tidspunkt, der passer ind i din kalender.",
+    "cta": "Åbn booking system",
+    "iframe_title": "Booking system - Mentis Balance"
   },
   "contact": {
     "title": "Kontakt",
@@ -140,7 +147,9 @@
     "practical_title": "Praktisk Information | Mentis Balance",
     "practical_description": "Vilkår, tavshedspligt, afbudsregler og praktisk information om psykologisk behandling.",
     "contact_title": "Kontakt | Mentis Balance",
-    "contact_description": "Kontakt psykolog Tania Brandt for at booke en tid eller få mere information om behandling."
+    "contact_description": "Kontakt psykolog Tania Brandt for at booke en tid eller få mere information om behandling.",
+    "booking_title": "Book en tid | Mentis Balance",
+    "booking_description": "Book en tid hos autoriseret psykolog Tania Brandt. Vælg service og find et tidspunkt, der passer dig."
   },
   "errors": {
     "not_found": "Ups! Side ikke fundet",
@@ -186,16 +195,14 @@
       "Ret til sletning under særlige omstændigheder",
       "Ret til at klage til Datatilsynet"
     ],
-    "rights_contact": "For spørgsmål om behandling af personoplysninger, kontakt Tania Brandt på",
-    "cookies_title": "Cookies",
-    "cookies_text": "Denne hjemmeside bruger kun funktionelle cookies, der er nødvendige for hjemmesidens drift. Vi anvender ikke tracking-cookies eller analyse-cookies uden dit samtykke."
+    "rights_contact": "For spørgsmål om behandling af personoplysninger, kontakt Tania Brandt på"
   },
   "terms": {
     "treatment_terms_title": "Behandlingsvilkår",
     "treatment_terms_intro": "Ved at booke en aftale accepterer du følgende vilkår for psykologbehandling hos Mentis Balance.",
     "booking_title": "Aftaler og booking",
     "booking_items": [
-      "Aftaler bookes ved telefonisk henvendelse eller via kontaktformular",
+      "Aftaler bookes via booking systemet",
       "Bekræftelse af aftale sker telefonisk eller via e-mail",
       "Første session anbefales at være med fysisk fremmøde"
     ],

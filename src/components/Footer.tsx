@@ -15,6 +15,7 @@ const Footer = () => {
       prices: { da: '/priser', en: '/prices', es: '/precios', pt: '/precos' },
       practical: { da: '/praktisk', en: '/practical', es: '/practico', pt: '/pratico' },
       contact: { da: '/kontakt', en: '/contact', es: '/contacto', pt: '/contato' },
+      booking: { da: '/bestil-tid', en: '/booking', es: '/reservar-cita', pt: '/agendar-consulta' },
       privacy: { da: '/privatlivspolitik', en: '/privacy', es: '/privacy', pt: '/privacy' },
       terms: { da: '/vilkar', en: '/terms', es: '/terms', pt: '/terms' },
     };
@@ -83,6 +84,9 @@ const Footer = () => {
               </Link>
               <Link to={getLocalizedPath('contact')} className="hover:text-accent transition-colors">
                 {t('navigation.contact')}
+              </Link>
+              <Link to={getLocalizedPath('booking')} className="hover:text-accent transition-colors">
+                {t('navigation.booking')}
               </Link>
             </nav>
           </div>

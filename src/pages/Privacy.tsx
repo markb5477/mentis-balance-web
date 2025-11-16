@@ -77,17 +77,6 @@ const Privacy = () => {
                   </p>
                 </CardContent>
               </Card>
-
-              <Card className="fade-in">
-                <CardHeader>
-                  <CardTitle>{t('privacy.cookies_title')}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p>
-                    {t('privacy.cookies_text')}
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>

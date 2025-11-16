@@ -7,7 +7,8 @@
     "online_therapy": "Terapia Online",
     "prices": "Preços",
     "practical": "Prático",
-    "contact": "Contato"
+    "contact": "Contato",
+    "booking": "Agendar uma consulta"
   },
   "footer": {
     "copyright": "© 2025 Mentis Balance",
@@ -108,6 +109,12 @@
     "payment_company_title": "Empresas:",
     "payment_company_bank": "Transferência bancária: xx"
   },
+  "booking": {
+    "title": "Agendar uma consulta",
+    "intro": "Agende uma consulta comigo usando o sistema de agendamento abaixo. Você pode escolher o serviço que melhor se adapta a você e encontrar um horário que se ajuste à sua agenda.",
+    "cta": "Abrir sistema de agendamento",
+    "iframe_title": "Sistema de agendamento - Mentis Balance"
+  },
   "contact": {
     "title": "Contato",
     "intro": "Fico feliz em falar com você caso tenha dúvidas. Se o meu celular estiver ocupado, por favor deixe uma mensagem e retornarei a ligação o mais rápido possível; caso contrário, envie um e-mail confidencial para tania@mentisbalance.dk.",
@@ -140,7 +147,9 @@
     "practical_title": "Informações Práticas | Mentis Balance",
     "practical_description": "Termos, confidencialidade, regras de cancelamento e informações práticas sobre tratamento psicológico.",
     "contact_title": "Contato | Mentis Balance",
-    "contact_description": "Entre em contato com a psicóloga Tania Brandt para agendar uma consulta ou obter mais informações sobre o tratamento."
+    "contact_description": "Entre em contato com a psicóloga Tania Brandt para agendar uma consulta ou obter mais informações sobre o tratamento.",
+    "booking_title": "Agendar uma consulta | Mentis Balance",
+    "booking_description": "Agende uma consulta com a psicóloga autorizada Tania Brandt. Escolha um serviço e encontre um horário que funcione para você."
   },
   "errors": {
     "not_found": "Ops! Página não encontrada",
@@ -186,16 +195,14 @@
       "Direito de exclusão sob circunstâncias especiais",
       "Direito de reclamar à Autoridade de Proteção de Dados"
     ],
-    "rights_contact": "Para perguntas sobre processamento de informações pessoais, entre em contato com Tania Brandt em",
-    "cookies_title": "Cookies",
-    "cookies_text": "Este site usa apenas cookies funcionais que são necessários para o funcionamento do site. Não usamos cookies de rastreamento ou análise sem seu consentimento."
+    "rights_contact": "Para perguntas sobre processamento de informações pessoais, entre em contato com Tania Brandt em"
   },
   "terms": {
     "treatment_terms_title": "Termos de Tratamento",
     "treatment_terms_intro": "Ao agendar uma consulta, você aceita os seguintes termos para tratamento psicológico no Mentis Balance.",
     "booking_title": "Consultas e agendamento",
     "booking_items": [
-      "Consultas são agendadas por contato telefônico ou através do formulário de contato",
+      "Consultas são agendadas através do sistema de agendamento",
       "Confirmação da consulta é feita por telefone ou por email",
       "Primeira sessão é recomendada para ser com presença física"
     ],

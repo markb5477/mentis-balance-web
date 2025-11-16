@@ -12,6 +12,7 @@ import OnlineTherapy from "./pages/OnlineTherapy";
 import Prices from "./pages/Prices";
 import Practical from "./pages/Practical";
 import Contact from "./pages/Contact";
+import Booking from "./pages/Booking";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
@@ -49,6 +50,10 @@ const App = () => (
           <Route path="/contact" element={<Contact />} />
           <Route path="/contacto" element={<Contact />} />
           <Route path="/contato" element={<Contact />} />
+          <Route path="/booking" element={<Booking />} />
+          <Route path="/bestil-tid" element={<Booking />} />
+          <Route path="/reservar-cita" element={<Booking />} />
+          <Route path="/agendar-consulta" element={<Booking />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/privatlivspolitik" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />

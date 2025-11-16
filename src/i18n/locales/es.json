@@ -7,7 +7,8 @@
     "online_therapy": "Terapia Online",
     "prices": "Precios",
     "practical": "Práctico",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "booking": "Reservar una cita"
   },
   "footer": {
     "copyright": "© 2025 Mentis Balance",
@@ -36,7 +37,7 @@
   },
   "online_therapy": {
     "title": "Terapia Online",
-    "content": "También ofrezco terapia online, que también se conoce como terapia remota o e-terapia.\n\nPuedes recibir ayuda profesional en entornos seguros, independientemente de dónde te encuentres. Hay muchos beneficios como:\n\n• Tienes acceso a ayuda psicológica especializada sin limitaciones geográficas.\n\n• Programas sesiones que se adaptan a tu vida diaria.\n\n• Recibes terapia en tus propios entornos seguros.\n\n• Evitas el transporte y el tiempo perdido asociado con viajar a mi clínica.\n\n• Evitas tomar tiempo libre del trabajo.\n\nTodas las sesiones online se realizan a través de una conexión de video segura y cifrada según GDPR.\n\nEl proceso de terapia online se adapta a ti. Está estructurado y dirigido con un enfoque en darte las herramientas necesarias para manejar tus desafíos.\n\nEspero apoyarte hacia un mejor bienestar mental."
+    "content": "También ofrezco terapia online, que también se conoce como e-terapia.\n\nPuedes recibir ayuda profesional en entornos seguros, independientemente de dónde te encuentres. Hay muchos beneficios como:\n\n• Tienes acceso a ayuda psicológica especializada sin limitaciones geográficas.\n\n• Programas sesiones que se adaptan a tu vida diaria.\n\n• Recibes terapia en tus propios entornos seguros.\n\n• Evitas el transporte y el tiempo perdido asociado con viajar a mi clínica.\n\n• Evitas tomar tiempo libre del trabajo.\n\nTodas las sesiones online se realizan a través de una conexión de video segura y cifrada según GDPR.\n\nEl proceso de terapia online se adapta a ti. Está estructurado y dirigido con un enfoque en darte las herramientas necesarias para manejar tus desafíos.\n\nEspero apoyarte hacia un mejor bienestar mental."
   },
   "treatment": {
     "title": "Tratamiento",
@@ -108,6 +109,12 @@
     "payment_company_title": "Empresas:",
     "payment_company_bank": "Transferencia bancaria: xx"
   },
+  "booking": {
+    "title": "Reservar una cita",
+    "intro": "Reserva una cita conmigo usando el sistema de reservas a continuación. Puedes elegir el servicio que mejor se adapte a ti y encontrar un horario que se ajuste a tu calendario.",
+    "cta": "Abrir sistema de reservas",
+    "iframe_title": "Sistema de reservas - Mentis Balance"
+  },
   "contact": {
     "title": "Contacto",
     "intro": "Espero tener noticias tuyas si tienes alguna pregunta. Si mi móvil está ocupado, por favor deja un mensaje y te devolveré la llamada lo antes posible; de lo contrario, envía un correo electrónico confidencial a tania@mentisbalance.dk.",
@@ -140,7 +147,9 @@
     "practical_title": "Información Práctica | Mentis Balance",
     "practical_description": "Términos, confidencialidad, reglas de cancelación e información práctica sobre tratamiento psicológico.",
     "contact_title": "Contacto | Mentis Balance",
-    "contact_description": "Contacta a la psicóloga Tania Brandt para reservar una cita u obtener más información sobre el tratamiento."
+    "contact_description": "Contacta a la psicóloga Tania Brandt para reservar una cita u obtener más información sobre el tratamiento.",
+    "booking_title": "Reservar una cita | Mentis Balance",
+    "booking_description": "Reserva una cita con la psicóloga autorizada Tania Brandt. Elige un servicio y encuentra un horario que te convenga."
   },
   "errors": {
     "not_found": "¡Ups! Página no encontrada",
@@ -186,16 +195,14 @@
       "Derecho a eliminación bajo circunstancias especiales",
       "Derecho a quejarte ante la Autoridad de Protección de Datos"
     ],
-    "rights_contact": "Para preguntas sobre el procesamiento de información personal, contacta a Tania Brandt en",
-    "cookies_title": "Cookies",
-    "cookies_text": "Este sitio web solo utiliza cookies funcionales que son necesarias para el funcionamiento del sitio web. No utilizamos cookies de seguimiento o análisis sin tu consentimiento."
+    "rights_contact": "Para preguntas sobre el procesamiento de información personal, contacta a Tania Brandt en"
   },
   "terms": {
     "treatment_terms_title": "Términos de Tratamiento",
     "treatment_terms_intro": "Al reservar una cita, aceptas los siguientes términos para el tratamiento psicológico en Mentis Balance.",
     "booking_title": "Citas y reservas",
     "booking_items": [
-      "Las citas se reservan por contacto telefónico o a través del formulario de contacto",
+      "Las citas se reservan a través del sistema de reservas",
       "La confirmación de la cita se realiza por teléfono o por email",
       "Se recomienda que la primera sesión sea con asistencia física"
     ],

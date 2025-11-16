@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Layout from '@/components/Layout';
 import TranslatedText from '@/components/TranslatedText';
+import { PRICING, formatPrice } from '@/config/pricing';
 
 const Terms = () => {
   const { t } = useTranslation();
@@ -33,7 +34,7 @@ const Terms = () => {
                   </ul>
                   
                   <h3 className="font-semibold mt-6 mb-3">{t('terms.cancellation_title')}</h3>
-                  <p>{t('practical.cancellation_text')}</p>
+                  <p>{t('practical.cancellation_text', { cancellationFee: formatPrice(PRICING.CANCELLATION_FEE) })}</p>
                   
                   <h3 className="font-semibold mt-6 mb-3">{t('terms.payment_title')}</h3>
                   <p>{t('practical.payment_method_text')}</p>
@@ -70,7 +71,7 @@ const Terms = () => {
                 </CardHeader>
                 <CardContent>
                   <p>
-                    {t('terms.complaints_text')} 
+                    {t('terms.complaints_text')}{' '}
                     <a href="https://www.psykolognaevnet.dk" className="text-accent hover:underline">psykolognaevnet.dk</a>
                   </p>
                   

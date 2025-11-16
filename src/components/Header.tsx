@@ -20,6 +20,7 @@ const Header = () => {
       prices: { da: '/priser', en: '/prices', es: '/precios', pt: '/precos' },
       practical: { da: '/praktisk', en: '/practical', es: '/practico', pt: '/pratico' },
       contact: { da: '/kontakt', en: '/contact', es: '/contacto', pt: '/contato' },
+      booking: { da: '/bestil-tid', en: '/booking', es: '/reservar-cita', pt: '/agendar-consulta' },
     };
     return paths[key as keyof typeof paths][i18n.language as keyof typeof paths.home] || paths[key as keyof typeof paths].da;
   };
@@ -39,6 +40,7 @@ const Header = () => {
     { key: 'prices', label: t('navigation.prices'), path: getLocalizedPath('prices') },
     { key: 'practical', label: t('navigation.practical'), path: getLocalizedPath('practical') },
     { key: 'contact', label: t('navigation.contact'), path: getLocalizedPath('contact') },
+    { key: 'booking', label: t('navigation.booking'), path: getLocalizedPath('booking') },
   ];
 
   return (
