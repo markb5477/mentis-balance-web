@@ -21,7 +21,7 @@ const Profile = () => {
                   <img
                     src={headshotImage}
                     alt={t('ui.profile_alt')}
-                    className="w-80 h-80 object-cover rounded-2xl shadow-lg"
+                    className="w-80 h-80 object-cover object-[center_0%] rounded-2xl shadow-lg"
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-black/10"></div>
                 </div>
