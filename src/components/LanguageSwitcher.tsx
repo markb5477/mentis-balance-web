@@ -39,13 +39,13 @@ const LanguageSwitcher = () => {
           <DropdownMenuItem
             key={language.code}
             onClick={() => changeLanguage(language.code)}
-            className={`flex items-center space-x-2 ${
+            className={`group flex items-center space-x-2 ${
               i18n.language === language.code ? 'bg-accent/10' : ''
             }`}
           >
             <span>{language.flag}</span>
             <span className="uppercase font-medium">{language.code}</span>
-            <span className="text-sm text-muted-foreground">{language.name}</span>
+            <span className="text-sm text-muted-foreground group-hover:text-white group-focus:text-white">{language.name}</span>
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>

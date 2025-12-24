@@ -26,7 +26,12 @@ const Index = () => {
         <div className="absolute inset-0 hero-gradient"></div>
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto fade-in">
           <h1 className="font-heading text-4xl md:text-6xl font-bold mb-6">
-            {t('home.title')}
+            {(t('home.title') as string).split('\n').map((line, index, array) => (
+              <span key={index} className={index === array.length - 1 ? 'whitespace-nowrap text-2xl md:text-3xl' : ''}>
+                {line}
+                {index < array.length - 1 && <br />}
+              </span>
+            ))}
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
             {t('home.subtitle')}

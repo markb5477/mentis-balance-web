@@ -30,10 +30,13 @@ const Profile = () => {
               {/* Biography */}
               <div className="lg:col-span-2 fade-in">
                 <div className="prose prose-lg max-w-none">
-                  {(t('profile.bio') as string).split('\n\n').map((paragraph, index) => (
-                    <p key={index} className="text-lg leading-relaxed text-muted-foreground mb-4" dangerouslySetInnerHTML={{ __html: paragraph }}>
-                    </p>
-                  ))}
+                  {(t('profile.bio') as string).split('\n\n').map((paragraph, index) => {
+                    const hasBullet = paragraph.includes('•');
+                    return (
+                      <p key={index} className={`text-lg leading-relaxed text-muted-foreground mb-4 ${hasBullet ? 'whitespace-pre-wrap' : ''}`} dangerouslySetInnerHTML={{ __html: paragraph }}>
+                      </p>
+                    );
+                  })}
                 </div>
               </div>
             </div>
