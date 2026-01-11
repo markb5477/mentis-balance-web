@@ -32,7 +32,7 @@ const Prices = () => {
   const groupSupervisionItems = [
     { service: t('group_supervision.2_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_2_PEOPLE), price90: '' },
     { service: t('group_supervision.3_5_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_3_5_PEOPLE), price90: '' },
-    { service: t('group_supervision.6_plus_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_6_PLUS_PEOPLE), price90: '' },
+    // { service: t('group_supervision.6_plus_people'), price50: formatPrice(PRICING.GROUP_SUPERVISION_6_PLUS_PEOPLE), price90: '' },
   ];
 
   const adhdAssessmentItems = [

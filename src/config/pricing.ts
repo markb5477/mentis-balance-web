@@ -2,53 +2,66 @@
 // All prices are in Danish Kroner (DKK)
 
 export const PRICING = {
-  // Individual therapy sessions
-  INDIVIDUAL_THERAPY_50MIN: '1.200',
+  // Individuel terapi 50 min
+  INDIVIDUAL_THERAPY_50MIN: '950',
+  // Individuel terapi 90 min
   INDIVIDUAL_THERAPY_90MIN: '1.700',
   
-  // Supervision
-  SUPERVISION_50MIN: '1.200',
+  // Supervision af psykologer på vej mod autorisation 50 min
+  SUPERVISION_50MIN: '900',
+  // Supervision af psykologer på vej mod autorisation 90 min
   SUPERVISION_90MIN: '',
   
-  // Group supervision
-  GROUP_SUPERVISION_2_PEOPLE: '1.500',
-  GROUP_SUPERVISION_3_5_PEOPLE: '1.600',
-  GROUP_SUPERVISION_6_PLUS_PEOPLE: '2.000',
+  // Gruppesupervision for 2 personer
+  GROUP_SUPERVISION_2_PEOPLE: '1.000',
+  // Gruppesupervision for 3-5 personer
+  GROUP_SUPERVISION_3_5_PEOPLE: '1.200',
+  // Gruppesupervision for 6 personer eller flere
+  // GROUP_SUPERVISION_6_PLUS_PEOPLE: '2.000',
   
-  // Self-therapy
-  SELF_THERAPY_50MIN: '1.200',
+  // Egenterapi for psykologer 50 min
+  SELF_THERAPY_50MIN: '9000',
+  // Egenterapi for psykologer 90 min
   SELF_THERAPY_90MIN: '',
   
-  // PTSD treatment
+  // PTSD-behandling 50 min
   PTSD_TREATMENT_50MIN: '',
-  PTSD_TREATMENT_90MIN: '1.800',
+  // PTSD-behandling 90 min
+  PTSD_TREATMENT_90MIN: '1.400',
   
-  // Family sessions
+  // Pårørendesamtaler 50 min
   FAMILY_SESSIONS_50MIN: '1.200',
+  // Pårørendesamtaler 90 min
   FAMILY_SESSIONS_90MIN: '1.800',
   
-  // Online therapy
-  ONLINE_THERAPY_50MIN: '1.200',
+  // Online terapi, krypteret. 50 min
+  ONLINE_THERAPY_50MIN: '900',
+  // Online terapi, krypteret. 90 min
   ONLINE_THERAPY_90MIN: '',
   
-  // Online supervision
-  ONLINE_SUPERVISION_50MIN: '1.200',
+  // Online supervision, krypteret. 50 min
+  ONLINE_SUPERVISION_50MIN: '900',
+  // Online supervision, krypteret. 90 min
   ONLINE_SUPERVISION_90MIN: '',
   
-  // Session cards (therapy packages)
-  SESSION_CARD_3X: '3.000',
-  SESSION_CARD_5X: '5.000',
+  // Klippekort - 3x terapi
+  SESSION_CARD_3X: '1.800',
+  // Klippekort - 5x terapi
+  SESSION_CARD_5X: '2.700',
   
-  // Student discounts
-  STUDENT_SESSION_PRICE: '950',
+  // Rabat til studerende og ledige - Pris pr. session
+  STUDENT_SESSION_PRICE: '500',
+  // Rabat til studerende og ledige - 3x terapi
   STUDENT_3X_CARD: '2.500',
+  // Rabat til studerende og ledige - 5x terapi
   STUDENT_5X_CARD: '3.750',
   
-  // ADHD Assessment
-  ADHD_INITIAL_CONSULTATION: '1.500',
-  ADHD_FULL_ASSESSMENT: '12.000',
+  // Udredning ADHD/ADD - Opstartssamtale 70 min.
+  ADHD_INITIAL_CONSULTATION: '1.000',
+  // Udredning ADHD/ADD - Fuldt udredningsforløb
+  ADHD_FULL_ASSESSMENT: '5.000',
   
-  // Cancellation fee
+  // Afbudsgebyr
   CANCELLATION_FEE: '500'
 } as const;
 

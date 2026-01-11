@@ -71,7 +71,7 @@
     "group_supervision": "Gruppesupervision for 2 personer: 1.500 kr./time\nGruppesupervision for 3-5 personer: 1.600 kr./time\nGruppesupervision for 6 personer eller flere: 2.000 kr./time",
     "self_therapy": "Egenterapi for psykologer (ved et længere forløb, kontakt for pris)",
     "ptsd_treatment": "PTSD-behandling",
-    "family_sessions": "Pårørendesamtaler",
+    "family_sessions": "Pårørendesamtaler - parterapi - familieterapi (2 personer)",
     "online_therapy": "Online terapi, krypteret.",
     "online_supervision": "Online supervision, krypteret.",
     "session_cards": "Klippekort",
@@ -228,7 +228,7 @@
     "session_3x": "3x terapi",
     "session_5x": "5x terapi",
     "price_per_session": "Pris pr. session",
-    "family_2_persons": "2 prs",
+    "family_2_persons": "",
     "price": "Pris"
   },
   "group_supervision": {
