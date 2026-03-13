@@ -67,7 +67,7 @@ Build the project for production:
 npm run build
 ```
 
-The built files will be in the `dist` directory, ready to be deployed to any static hosting service.
+The built files will be in the `dist` directory, ready to be deployed to any static hosting service. The site is deployed to GitHub Pages on push to `main`.
 
 ## License
 
