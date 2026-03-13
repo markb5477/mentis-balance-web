@@ -23,7 +23,7 @@ This project is built with:
 ### Prerequisites
 
 - Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
+ 
 ### Installation
 
 ```sh
