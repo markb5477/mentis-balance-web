@@ -41,9 +41,6 @@ const Index = () => {
               {t('home.introduction')}
             </p>
             <p className="text-lg font-medium">
-              {t('home.highlight')}
-            </p>
-            <p className="text-lg font-medium">
               {t('home.languages_note')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
