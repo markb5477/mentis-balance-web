@@ -3,47 +3,45 @@
 
 export const PRICING = {
   // Individuel terapi 50 min
-  INDIVIDUAL_THERAPY_50MIN: '950',
+  INDIVIDUAL_THERAPY_50MIN: '1.050',
   // Første samtale ved opstart af forløb 60 min
-  FIRST_CONSULTATION_60MIN: '1.000',
+  FIRST_CONSULTATION_60MIN: '1.100',
   
   // Supervision af psykologer på vej mod autorisation 60 min
-  SUPERVISION_60MIN: '900',
+  SUPERVISION_60MIN: '1.050',
   
   // Gruppesupervision for 2 personer
-  GROUP_SUPERVISION_2_PEOPLE: '1.000',
+  GROUP_SUPERVISION_2_PEOPLE: '1.100',
   // Gruppesupervision for 3-4 personer
-  GROUP_SUPERVISION_3_4_PEOPLE: '1.200',
+  GROUP_SUPERVISION_3_4_PEOPLE: '1.350',
   
   // Egenterapi for psykologer 60 min
-  SELF_THERAPY_60MIN: '900',
+  SELF_THERAPY_60MIN: '1.050',
   
   // Prolonged Exposure (PE) til behandling af PTSD 90 min
-  PTSD_TREATMENT_90MIN: '1.400',
+  PTSD_TREATMENT_90MIN: '1.550',
   
   // Pårørendesamtaler 1 person 50 min
-  FAMILY_SESSIONS_1_PERSON_50MIN: '950',
+  FAMILY_SESSIONS_1_PERSON_50MIN: '1.050',
   // Pårørendesamtaler 2 personer 90 min (Parterapi og familieterapi)
-  FAMILY_SESSIONS_2_PERSONS_90MIN: '1.800',
+  FAMILY_SESSIONS_2_PERSONS_90MIN: '2.000',
   
   // Klippekort - 3x terapi
-  SESSION_CARD_3X: '1.800',
+  SESSION_CARD_3X: '3.000',
   // Klippekort - 5x terapi
-  SESSION_CARD_5X: '2.700',
+  SESSION_CARD_5X: '4.750',
   
-  // Rabat til studerende, ledige og pensionister - Pris pr. session 50 min
-  STUDENT_SESSION_PRICE: '500',
-  // Første samtale med studierabat 60 min
-  STUDENT_FIRST_CONSULTATION_60MIN: '600',
+  // Rabat til studerende, ledige og pensionister - Pris pr. session 60 min
+  STUDENT_SESSION_PRICE: '750',
   // Rabat til studerende, ledige og pensionister - 3x terapi
-  STUDENT_3X_CARD: '1.250',
+  STUDENT_3X_CARD: '2.000',
   // Rabat til studerende, ledige og pensionister - 5x terapi
-  STUDENT_5X_CARD: '2.000',
+  STUDENT_5X_CARD: '3.500',
   
   // Udredning ADHD/ADD - Opstartssamtale 70 min.
-  ADHD_INITIAL_CONSULTATION: '1.000',
+  ADHD_INITIAL_CONSULTATION: '1.100',
   // Udredning ADHD/ADD - Fuldt udredningsforløb
-  ADHD_FULL_ASSESSMENT: '5.000',
+  ADHD_FULL_ASSESSMENT: '5.500',
   
   // Afbudsgebyr
   CANCELLATION_FEE: '500'

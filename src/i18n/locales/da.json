@@ -63,6 +63,7 @@
   },
   "prices": {
     "subtitle": "Priser",
+    "valid_from": "Priser pr. 01.10.2026",
     "note": "OBS. Jeg er ikke tilknyttet sygesikringen og du kan derfor ikke bruge en henvisning fra din egen læge.",
     "price_note": "Pris efter aftale ved samtaler af længere varighed. Samtalen kan afholdes fysisk, video eller telefonisk.",
     "insurance_note": "Vær OBS på, at du ofte kan få tilskud eller fuld dækning for din behandling, hvis du har sundhedssikring.",

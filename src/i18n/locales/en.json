@@ -63,6 +63,7 @@
   },
   "prices": {
     "subtitle": "Prices",
+    "valid_from": "Prices as of 01.10.2026",
     "note": "NOTE: I am not affiliated with health insurance and therefore you cannot use a referral from your own doctor. A session lasts 50 minutes.",
     "insurance_note": "Please note that you can often get subsidies or full coverage for your treatment if you have health insurance.",
     "individual_therapy": "Individual therapy",

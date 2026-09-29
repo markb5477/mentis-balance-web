@@ -63,6 +63,7 @@
   },
   "prices": {
     "subtitle": "Preços",
+    "valid_from": "Preços a partir de 01.10.2026",
     "note": "NOTA: Não estou afiliada ao seguro de saúde e, portanto, você não pode usar um encaminhamento do seu próprio médico. Uma sessão dura 50 minutos.",
     "insurance_note": "Por favor, note que você frequentemente pode obter subsídios ou cobertura total para seu tratamento se tiver seguro de saúde.",
     "individual_therapy": "Terapia individual",

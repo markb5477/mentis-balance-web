@@ -63,6 +63,7 @@
   },
   "prices": {
     "subtitle": "Precios",
+    "valid_from": "Precios a partir del 01.10.2026",
     "note": "NOTA: No estoy afiliada al seguro social de salud \"gult sundhedskort\" y por lo tanto no puedes usar la referencia de tu médico de cabecera para adquirir un tratamiento psicologico. ",
     "insurance_note": "Tenga en cuenta que a menudo puede obtener subsidios o cobertura completa para su tratamiento si tiene seguro de salud.",
     "individual_therapy": "Terapia individual",

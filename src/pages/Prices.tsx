@@ -22,10 +22,9 @@ const Prices = () => {
   ];
 
   const studentPrices = [
-    { service: t('prices.student_session'), price50: formatPrice(PRICING.STUDENT_SESSION_PRICE), price60: '' },
-    { service: t('prices.student_first_consultation'), price50: '', price60: formatPrice(PRICING.STUDENT_FIRST_CONSULTATION_60MIN) },
-    { service: t('prices_table.session_3x'), price50: formatPrice(PRICING.STUDENT_3X_CARD), price60: '' },
-    { service: t('prices_table.session_5x'), price50: formatPrice(PRICING.STUDENT_5X_CARD), price60: '' },
+    { service: t('prices.student_session'), price60: formatPrice(PRICING.STUDENT_SESSION_PRICE) },
+    { service: t('prices_table.session_3x'), price60: formatPrice(PRICING.STUDENT_3X_CARD) },
+    { service: t('prices_table.session_5x'), price60: formatPrice(PRICING.STUDENT_5X_CARD) },
   ];
 
   const groupSupervisionItems = [
@@ -56,12 +55,16 @@ const Prices = () => {
             </h1>
 
             {/* Important Notice */}
-            <Alert className="mb-12 fade-in">
+            <Alert className="mb-8 fade-in">
               <AlertCircle className="h-4 w-4" />
               <AlertDescription className="text-base">
                 {t('prices.note')} {t('prices.insurance_note')}
               </AlertDescription>
             </Alert>
+
+            <h2 className="font-heading text-2xl font-semibold mb-4 fade-in">
+              {t('prices.valid_from')}
+            </h2>
 
             {/* Price Table */}
             <Card className="mb-12 fade-in">
@@ -220,16 +223,14 @@ const Prices = () => {
                     <thead>
                       <tr className="border-b">
                         <th className="text-left py-3 w-1/2">{t('prices_table.treatment_header')}</th>
-                        <th className="text-center py-3 w-1/4">{t('prices_table.duration_50')}</th>
-                        <th className="text-center py-3 w-1/4">{t('prices_table.duration_60')}</th>
+                        <th className="text-center py-3 w-1/2">{t('prices_table.duration_60')}</th>
                       </tr>
                     </thead>
                     <tbody>
                       {studentPrices.map((item, index) => (
                         <tr key={index} className="border-b">
                           <td className="py-3 w-1/2">{item.service}</td>
-                          <td className="text-center py-3 w-1/4">{item.price50 || ''}</td>
-                          <td className="text-center py-3 w-1/4">{item.price60 || ''}</td>
+                          <td className="text-center py-3 w-1/2">{item.price60}</td>
                         </tr>
                       ))}
                     </tbody>

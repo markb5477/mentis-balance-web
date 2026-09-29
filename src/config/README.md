@@ -18,13 +18,13 @@ import { PRICING, formatPrice, formatPriceWithText } from '@/config/pricing';
 
 ```typescript
 // Get a price value
-const therapyPrice = PRICING.INDIVIDUAL_THERAPY_50MIN; // "1200"
+const therapyPrice = PRICING.INDIVIDUAL_THERAPY_50MIN; // "1.050"
 
 // Format a price with currency
-const formattedPrice = formatPrice(PRICING.INDIVIDUAL_THERAPY_50MIN); // "1200 kr."
+const formattedPrice = formatPrice(PRICING.INDIVIDUAL_THERAPY_50MIN); // "1.050 kr."
 
 // Format a price with additional text
-const familyPrice = formatPriceWithText(PRICING.FAMILY_SESSIONS_90MIN, '2 prs'); // "1800 kr. (2 prs)"
+const familyPrice = formatPriceWithText(PRICING.FAMILY_SESSIONS_90MIN, '2 prs'); // "2.000 kr. (2 prs)"
 ```
 
 ### Using in translation files
